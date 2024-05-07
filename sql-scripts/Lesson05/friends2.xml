@@ -1,4 +1,4 @@
-<Friend FriendId="2">
+<Friend FriendId="1">
 	<FirstName>
 		Harry
 	</FirstName>
@@ -8,25 +8,14 @@
 	<Country>
 		Sweden
 	</Country>
+	<City>
+		Sweden
+	</City>
 	<Pet>
 		Charlie the happy Cat
 	</Pet>
 </Friend>
 <Friend FriendId="2">
-	<FirstName>
-		Harry
-	</FirstName>
-	<LastName>
-		Took
-	</LastName>
-	<Country>
-		Sweden
-	</Country>
-	<Pet>
-		Wanda the happy Fish
-	</Pet>
-</Friend>
-<Friend FriendId="3">
 	<FirstName>
 		Severus
 	</FirstName>
@@ -36,26 +25,66 @@
 	<Country>
 		Norway
 	</Country>
+	<City>
+		Norway
+	</City>
+	<Pet>
+		Wanda the happy Fish
+	</Pet>
+</Friend>
+<Friend FriendId="5">
+	<FirstName>
+		Lord
+	</FirstName>
+	<LastName>
+		Dumbledore
+	</LastName>
+	<Country>
+		Sweden
+	</Country>
+	<City>
+		Sweden
+	</City>
+	<Pet>
+		Simba the happy Dog
+	</Pet>
+</Friend>
+<Friend FriendId="5">
+	<FirstName>
+		Lord
+	</FirstName>
+	<LastName>
+		Dumbledore
+	</LastName>
+	<Country>
+		Sweden
+	</Country>
+	<City>
+		Sweden
+	</City>
+	<Pet>
+		Max the happy Bird
+	</Pet>
+</Friend>
+<Friend FriendId="3">
+	<FirstName>
+		Sam
+	</FirstName>
+	<LastName>
+		Baggins
+	</LastName>
+	<Country>
+		Denmark
+	</Country>
+	<City>
+		Denmark
+	</City>
 	<Pet>
 		Cooper the happy Cat
 	</Pet>
 </Friend>
 <Friend FriendId="7">
 	<FirstName>
-		Hermione
-	</FirstName>
-	<LastName>
-		Granger
-	</LastName>
-	<Country>
-		Norway
-	</Country>
-	<Pet>
-		Milo the happy Dog
-	</Pet>
-</Friend>
-<Friend FriendId="8">
-	<FirstName>
 		Albus
 	</FirstName>
 	<LastName>
@@ -64,20 +93,43 @@
 	<Country>
 		Denmark
 	</Country>
+	<City>
+		Denmark
+	</City>
+	<Pet>
+		Wanda the happy Dog
+	</Pet>
+</Friend>
+<Friend FriendId="8">
+	<FirstName>
+		Draco
+	</FirstName>
+	<LastName>
+		Snape
+	</LastName>
+	<Country>
+		Finland
+	</Country>
+	<City>
+		Finland
+	</City>
 	<Pet>
 		Teddy the happy Fish
 	</Pet>
 </Friend>
 <Friend FriendId="8">
 	<FirstName>
-		Albus
+		Draco
 	</FirstName>
 	<LastName>
-		Potter
+		Snape
 	</LastName>
 	<Country>
-		Denmark
+		Finland
 	</Country>
+	<City>
+		Finland
+	</City>
 	<Pet>
 		Leo the happy Bird
 	</Pet>

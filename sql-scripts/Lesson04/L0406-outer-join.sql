@@ -1,6 +1,12 @@
 USE friends;
 GO
 
+SELECT * 
+FROM dbo.friend f 
+INNER JOIN dbo.Address a ON f.AddressId = a.AdressId;
+
+
+
 --Use Outer left join to get the adresses
 --Note: Friends with addressId NULL is now part of the result
 SELECT * 

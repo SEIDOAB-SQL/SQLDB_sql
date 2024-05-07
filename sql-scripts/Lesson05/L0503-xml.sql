@@ -10,7 +10,7 @@ SELECT
 INTO #fromXML
 FROM (SELECT CAST(MY_XML AS xml)
 -- Docker container
- FROM OPENROWSET(BULK N'/usr/images/friends2.xml', SINGLE_BLOB) AS T(MY_XML)) AS T(MY_XML)
+ FROM OPENROWSET(BULK N'/tmp/friends2.xml', SINGLE_BLOB) AS T(MY_XML)) AS T(MY_XML)
 
 -- SQL Server Express
 --   FROM OPENROWSET(BULK N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\Backup\friends2.xml', SINGLE_BLOB) AS T(MY_XML)) AS T(MY_XML)

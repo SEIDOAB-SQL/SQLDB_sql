@@ -6,7 +6,7 @@ SELECT friend.*
 INTO #fromJSON
 FROM
 -- Docker container
-OPENROWSET(BULK N'/usr/images/friends3.json', SINGLE_CLOB) AS json
+OPENROWSET(BULK N'/tmp/friends3.json', SINGLE_CLOB) AS json
 
 -- SQL Server Express
 -- OPENROWSET(BULK N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\Backup\friends3.json', SINGLE_CLOB) AS json
@@ -18,4 +18,23 @@ OPENROWSET(BULK N'/usr/images/friends3.json', SINGLE_CLOB) AS json
 
 SELECT * FROM #fromJSON
 
+--DROP TABLE #fromJSON;
+
+
+--Using the json data read to update the tables
+--1. Always test first by creating a tmp table copy
+SELECT * INTO #tmpFriend FROM Friend
+SELECT * FROM #tmpFriend
+
+--2. Update the tmp table with the json data, bulk read
+UPDATE tf
+    SET tf.FirstName = js.FirstName
+FROM #tmpFriend tf
+INNER JOIN #fromJSON js ON tf.FriendId = js.FriendId
+
+--3. Check result
+SELECT * FROM #tmpFriend
+
+
 DROP TABLE #fromJSON;
+DROP TABLE #tmpFriend

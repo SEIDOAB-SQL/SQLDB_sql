@@ -1,4 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<Friend FriendId="2" FirstName="Harry" LastName="Took" Email="harry.took@gmail.com" AddressId="1"><Address AdressId="1" StreetAddress="Svedjevägen 1" ZipCode="18399" City="Malmö" Country="Sweden"><Pet PetId="2" AnimalKind="Cat" Name="Charlie" FriendId="2" /><Pet PetId="3" AnimalKind="Fish" Name="Wanda" FriendId="2" /></Address></Friend><Friend FriendId="3" FirstName="Severus" LastName="Gamgee" Email="severus.gamgee@gmail.com" AddressId="2"><Address AdressId="2" StreetAddress="Frognerveien 10" ZipCode="12345" City="Dramen" Country="Norway"><Pet PetId="6" AnimalKind="Cat" Name="Cooper" FriendId="3" /></Address></Friend><Friend FriendId="7" FirstName="Hermione" LastName="Granger" AddressId="6" BestFriendId="2"><Address AdressId="6" StreetAddress="Sågveien 5" ZipCode="12345" City="Stavanger" Country="Norway"><Pet PetId="7" AnimalKind="Dog" Name="Milo" FriendId="7" /></Address></Friend><Friend FriendId="8" FirstName="Albus" LastName="Potter" Email="albus.potter@gmail.com" AddressId="7"><Address AdressId="7" StreetAddress="Classensgade 9" ZipCode="18924" City="Århus" Country="Denmark"><Pet PetId="8" AnimalKind="Fish" Name="Teddy" FriendId="8" /><Pet PetId="9" AnimalKind="Bird" Name="Leo" FriendId="8" /></Address></Friend>
+
+<Friend FriendId="1" FirstName="Harry" LastName="Took">
+	<Address>
+		<Country>
+			Sweden
+		</Country>
+		<City>
+			Sweden
+		</City>
+	</Address>
+	<Pet>
+		Charlie the happy Cat
+	</Pet>
+</Friend>
+<Friend FriendId="2" FirstName="Severus" LastName="Gamgee">
+	<Address>
+		<Country>
+			Norway
+		</Country>
+		<City>
+			Norway
+		</City>
+	</Address>
+	<Pet>
+		Wanda the happy Fish
+	</Pet>
+</Friend>
+<Friend FriendId="5" FirstName="Lord" LastName="Dumbledore">
+	<Address>
+		<Country>
+			Sweden
+		</Country>
+		<City>
+			Sweden
+		</City>
+	</Address>
+	<Pet>
+		Simba the happy Dog
+	</Pet>
+</Friend>
+<Friend FriendId="5" FirstName="Lord" LastName="Dumbledore">
+	<Address>
+		<Country>
+			Sweden
+		</Country>
+		<City>
+			Sweden
+		</City>
+	</Address>
+	<Pet>
+		Max the happy Bird
+	</Pet>
+</Friend>
+<Friend FriendId="3" FirstName="Sam" LastName="Baggins">
+	<Address>
+		<Country>
+			Denmark
+		</Country>
+		<City>
+			Denmark
+		</City>
+	</Address>
+	<Pet>
+		Cooper the happy Cat
+	</Pet>
+</Friend>
+<Friend FriendId="7" FirstName="Albus" LastName="Potter">
+	<Address>
+		<Country>
+			Denmark
+		</Country>
+		<City>
+			Denmark
+		</City>
+	</Address>
+	<Pet>
+		Wanda the happy Dog
+	</Pet>
+</Friend>
+<Friend FriendId="8" FirstName="Draco" LastName="Snape">
+	<Address>
+		<Country>
+			Finland
+		</Country>
+		<City>
+			Finland
+		</City>
+	</Address>
+	<Pet>
+		Teddy the happy Fish
+	</Pet>
+</Friend>
+<Friend FriendId="8" FirstName="Draco" LastName="Snape">
+	<Address>
+		<Country>
+			Finland
+		</Country>
+		<City>
+			Finland
+		</City>
+	</Address>
+	<Pet>
+		Leo the happy Bird
+	</Pet>
+</Friend>
+
 </root>

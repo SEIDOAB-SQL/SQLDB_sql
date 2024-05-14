@@ -14,3 +14,6 @@ docker exec -it postgrescontainer psql -U postgres
 #\l                                     list all databases
 #\c database-name                       to connect to database
 #drop database database-name;           to remove a database, you have to be connected to another database, e.g postgres
+
+#Connection string example
+"Postgres-goodfriendsefc-docker": "Server=localhost;Port=5432;Database=goodfriendsefc;User Id=postgres;Password=skYhgS@83#aQ;",

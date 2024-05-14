@@ -17,3 +17,10 @@ docker pull mcr.microsoft.com/mssql/server:2022-latest
 #Note that I change the SQL Server port from 1433 to 14333 by using -p 14333:143  - this is to avoid conflict with 
 #already installed sql servers
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=skYhgS@83#aQ" -p 14333:1433 --name sql2022container1 --hostname sql2022 -d mcr.microsoft.com/mssql/server:2022-latest
+
+
+#Connection string example docker
+"SQLServer-goodfriendsefc-docker": "Data Source=localhost,14333;Initial Catalog=goodfriendsefc;Persist Security Info=True;User ID=sa;Pwd=skYhgS@83#aQ;Encrypt=False;",
+
+#Connection string example SqlExpress
+"SQLServer-goodfriendsefc-sqlex": "Data Source=localhost\\SQLEXPRESS;Initial Catalog=goodfriendsefc;Integrated Security=SSPI;Encrypt=False;",

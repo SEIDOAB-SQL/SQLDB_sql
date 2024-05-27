@@ -9,8 +9,8 @@ DECLARE @UserInput NVARCHAR(50);
 
 --Intention
 SET @UserInput = '6';
---SELECT * FROM dbo.Friend WHERE FriendId = 6;
---EXEC ('SELECT * FROM dbo.Friend WHERE FriendId = ' + @UserInput + ';');
+SELECT * FROM dbo.Friend WHERE FriendId = 6;
+EXEC ('SELECT * FROM dbo.Friend WHERE FriendId = ' + @UserInput + ';');
 
 --Attack
 SET @UserInput = '6; DROP TABLE #tmpPet';
@@ -21,4 +21,5 @@ SELECT * FROM #tmpPet; --does not exist any more
 SELECT * FROM dbo.Friend WHERE FriendId = 6; DROP TABLE #tmpPet;
 GO
 
+--DROP TABLE IF EXISTS #tmpPet
 

@@ -11,7 +11,7 @@ CREATE TABLE dbo.ErrorLog(
 GO
 
 --You can always throw an error
---;THROW 999999, 'This is a test error.', 1;
+;THROW 999999, 'This is a test error.', 1;
 
 BEGIN TRY
     INSERT INTO dbo.Pet

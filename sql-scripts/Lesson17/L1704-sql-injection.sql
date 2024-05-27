@@ -3,6 +3,7 @@ GO
 
 --SQL Injection use ; to run several SQL statements
 --Lets create a temp table as we dont want to destroy a real table
+DROP TABLE IF EXISTS #tmpPet
 SELECT * INTO #tmpPet FROM dbo.Pet; 
 
 DECLARE @UserInput NVARCHAR(50);
@@ -21,5 +22,5 @@ SELECT * FROM #tmpPet; --does not exist any more
 SELECT * FROM dbo.Friend WHERE FriendId = 6; DROP TABLE #tmpPet;
 GO
 
---DROP TABLE IF EXISTS #tmpPet
+--
 

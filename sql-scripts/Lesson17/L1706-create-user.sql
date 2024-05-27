@@ -27,6 +27,6 @@ GO
 SELECT SUSER_SNAME() AS server_principal_name,
        USER_NAME() AS database_principal_name;
 
---Server based principals
+--Database based users
 SELECT * FROM sys.database_principals
 WHERE type_desc = 'SQL_USER'

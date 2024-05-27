@@ -1,4 +1,4 @@
-USE master;
+USE musicefc;
 GO
 
 --Programatically determine if a user is a mamber of a role

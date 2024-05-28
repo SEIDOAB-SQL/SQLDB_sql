@@ -24,7 +24,7 @@ CREATE OR ALTER PROCEDURE dbo.usp_InsertMusicGroup
                 SET @MusicGroupId = NEWID();
 
             INSERT INTO dbo.MusicGroups VALUES 
-                (@MusicGroupId, @Name, @EstablishedYear); 
+                (@MusicGroupId, @Name, @EstablishedYear, 0); 
  
             --THROW 60000, 'Just to case an error', 1;
 

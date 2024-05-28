@@ -37,10 +37,16 @@ CREATE OR ALTER PROCEDURE dbo.usp_InsertArtist
                 SET @ArtistId = NEWID();
 
             INSERT INTO dbo.Artists VALUES 
-                (@ArtistId, @FirstName, @LastName, @BirthDay, @MusicGroupId); 
+                (@ArtistId, @FirstName, @LastName, @BirthDay, 0); 
             
+            IF @MusicGroupId IS NOT NULL
+            BEGIN
+                INSERT INTO dbo.csArtistcsMusicGroup VALUES
+                (@ArtistId, @MusicGroupId)
+            
+            END
             --
-            THROW 60000, 'Just to case an error', 1;
+            ;THROW 60000, 'Just to case an error', 1;
 
             COMMIT;
 

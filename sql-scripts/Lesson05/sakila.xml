@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<vwCustomer first_name="MARY" last_name="SMITH" email="MARY.SMITH@sakilacustomer.org" city="Sasebo" country="Japan" />
+<vwCustomer first_name="PATRICIA" last_name="JOHNSON" email="PATRICIA.JOHNSON@sakilacustomer.org" city="San Bernardino" country="United States" />
+<vwCustomer first_name="LINDA" last_name="WILLIAMS" email="LINDA.WILLIAMS@sakilacustomer.org" city="Athenai" country="Greece" />
+<vwCustomer first_name="BARBARA" last_name="JONES" email="BARBARA.JONES@sakilacustomer.org" city="Myingyan" country="Myanmar" />
+<vwCustomer first_name="ELIZABETH" last_name="BROWN" email="ELIZABETH.BROWN@sakilacustomer.org" city="Nantou" country="Taiwan" />
+<vwCustomer first_name="JENNIFER" last_name="DAVIS" email="JENNIFER.DAVIS@sakilacustomer.org" city="Laredo" country="United States" />
+<vwCustomer first_name="MARIA" last_name="MILLER" email="MARIA.MILLER@sakilacustomer.org" city="Kragujevac" country="Yugoslavia" />
+<vwCustomer first_name="SUSAN" last_name="WILSON" email="SUSAN.WILSON@sakilacustomer.org" city="Hamilton" country="New Zealand" />
+<vwCustomer first_name="MARGARET" last_name="MOORE" email="MARGARET.MOORE@sakilacustomer.org" city="Masqat" country="Oman" />
+<vwCustomer first_name="DOROTHY" last_name="TAYLOR" email="DOROTHY.TAYLOR@sakilacustomer.org" city="Esfahan" country="Iran" />
+<vwCustomer first_name="LISA" last_name="ANDERSON" email="LISA.ANDERSON@sakilacustomer.org" city="Sagamihara" country="Japan" />
+<vwCustomer first_name="NANCY" last_name="THOMAS" email="NANCY.THOMAS@sakilacustomer.org" city="Yamuna Nagar" country="India" />
+<vwCustomer first_name="KAREN" last_name="JACKSON" email="KAREN.JACKSON@sakilacustomer.org" city="Osmaniye" country="Turkey" />
+<vwCustomer first_name="BETTY" last_name="WHITE" email="BETTY.WHITE@sakilacustomer.org" city="Citrus Heights" country="United States" />
+<vwCustomer first_name="HELEN" last_name="HARRIS" email="HELEN.HARRIS@sakilacustomer.org" city="Bhopal" country="India" />
+<vwCustomer first_name="SANDRA" last_name="MARTIN" email="SANDRA.MARTIN@sakilacustomer.org" city="Southend-on-Sea" country="United Kingdom" />
+<vwCustomer first_name="DONNA" last_name="THOMPSON" email="DONNA.THOMPSON@sakilacustomer.org" city="Elista" country="Russian Federation" />
+<vwCustomer first_name="CAROL" last_name="GARCIA" email="CAROL.GARCIA@sakilacustomer.org" city="Kaduna" country="Nigeria" />
+<vwCustomer first_name="RUTH" last_name="MARTINEZ" email="RUTH.MARTINEZ@sakilacustomer.org" city="Kimberley" country="South Africa" />
+<vwCustomer first_name="SHARON" last_name="ROBINSON" email="SHARON.ROBINSON@sakilacustomer.org" city="Mardan" country="Pakistan" />
+<vwCustomer first_name="MICHELLE" last_name="CLARK" email="MICHELLE.CLARK@sakilacustomer.org" city="Tangail" country="Bangladesh" />
+<vwCustomer first_name="LAURA" last_name="RODRIGUEZ" email="LAURA.RODRIGUEZ@sakilacustomer.org" city="Sal" country="Morocco" />
+<vwCustomer first_name="SARAH" last_name="LEWIS" email="SARAH.LEWIS@sakilacustomer.org" city="Liepaja" country="Latvia" />
+<vwCustomer first_name="KIMBERLY" last_name="LEE" email="KIMBERLY.LEE@sakilacustomer.org" city="Crdoba" country="Argentina" />
+<vwCustomer first_name="DEBORAH" last_name="WALKER" email="DEBORAH.WALKER@sakilacustomer.org" city="Shikarpur" country="Pakistan" />
+<vwCustomer first_name="JESSICA" last_name="HALL" email="JESSICA.HALL@sakilacustomer.org" city="Citt del Vaticano" country="Holy See (Vatican City State)" />
+<vwCustomer first_name="SHIRLEY" last_name="ALLEN" email="SHIRLEY.ALLEN@sakilacustomer.org" city="Davao" country="Philippines" />
+<vwCustomer first_name="CYNTHIA" last_name="YOUNG" email="CYNTHIA.YOUNG@sakilacustomer.org" city="Munger (Monghyr)" country="India" />
+<vwCustomer first_name="ANGELA" last_name="HERNANDEZ" email="ANGELA.HERNANDEZ@sakilacustomer.org" city="Shimonoseki" country="Japan" />
+<vwCustomer first_name="MELISSA" last_name="KING" email="MELISSA.KING@sakilacustomer.org" city="Lungtan" country="Taiwan" />
+<vwCustomer first_name="BRENDA" last_name="WRIGHT" email="BRENDA.WRIGHT@sakilacustomer.org" city="Kamarhati" country="India" />
+<vwCustomer first_name="AMY" last_name="LOPEZ" email="AMY.LOPEZ@sakilacustomer.org" city="Jhansi" country="India" />
+<vwCustomer first_name="ANNA" last_name="HILL" email="ANNA.HILL@sakilacustomer.org" city="Alessandria" country="Italy" />
+<vwCustomer first_name="REBECCA" last_name="SCOTT" email="REBECCA.SCOTT@sakilacustomer.org" city="Kurashiki" country="Japan" />
+<vwCustomer first_name="VIRGINIA" last_name="GREEN" email="VIRGINIA.GREEN@sakilacustomer.org" city="Toulouse" country="France" />
+<vwCustomer first_name="KATHLEEN" last_name="ADAMS" email="KATHLEEN.ADAMS@sakilacustomer.org" city="Arak" country="Iran" />
+<vwCustomer first_name="PAMELA" last_name="BAKER" email="PAMELA.BAKER@sakilacustomer.org" city="Nanyang" country="China" />
+<vwCustomer first_name="MARTHA" last_name="GONZALEZ" email="MARTHA.GONZALEZ@sakilacustomer.org" city="Chisinau" country="Moldova" />
+<vwCustomer first_name="DEBRA" last_name="NELSON" email="DEBRA.NELSON@sakilacustomer.org" city="Vila Velha" country="Brazil" />
+<vwCustomer first_name="AMANDA" last_name="CARTER" email="AMANDA.CARTER@sakilacustomer.org" city="Nador" country="Morocco" />
+<vwCustomer first_name="STEPHANIE" last_name="MITCHELL" email="STEPHANIE.MITCHELL@sakilacustomer.org" city="Yerevan" country="Armenia" />
+<vwCustomer first_name="CAROLYN" last_name="PEREZ" email="CAROLYN.PEREZ@sakilacustomer.org" city="Pak Kret" country="Thailand" />
+<vwCustomer first_name="CHRISTINE" last_name="ROBERTS" email="CHRISTINE.ROBERTS@sakilacustomer.org" city="Faaa" country="French Polynesia" />
+<vwCustomer first_name="MARIE" last_name="TURNER" email="MARIE.TURNER@sakilacustomer.org" city="Lipetsk" country="Russian Federation" />
+<vwCustomer first_name="JANET" last_name="PHILLIPS" email="JANET.PHILLIPS@sakilacustomer.org" city="Antofagasta" country="Chile" />
+<vwCustomer first_name="CATHERINE" last_name="CAMPBELL" email="CATHERINE.CAMPBELL@sakilacustomer.org" city="Moscow" country="Russian Federation" />
+<vwCustomer first_name="FRANCES" last_name="PARKER" email="FRANCES.PARKER@sakilacustomer.org" city="Juazeiro do Norte" country="Brazil" />
+<vwCustomer first_name="ANN" last_name="EVANS" email="ANN.EVANS@sakilacustomer.org" city="Niznekamsk" country="Russian Federation" />
+<vwCustomer first_name="JOYCE" last_name="EDWARDS" email="JOYCE.EDWARDS@sakilacustomer.org" city="Jedda" country="Saudi Arabia" />
+<vwCustomer first_name="DIANE" last_name="COLLINS" email="DIANE.COLLINS@sakilacustomer.org" city="Omdurman" country="Sudan" />
+<vwCustomer first_name="ALICE" last_name="STEWART" email="ALICE.STEWART@sakilacustomer.org" city="Fontana" country="United States" />
+<vwCustomer first_name="JULIE" last_name="SANCHEZ" email="JULIE.SANCHEZ@sakilacustomer.org" city="A Corua (La Corua)" country="Spain" />
+<vwCustomer first_name="HEATHER" last_name="MORRIS" email="HEATHER.MORRIS@sakilacustomer.org" city="Nagareyama" country="Japan" />
+<vwCustomer first_name="TERESA" last_name="ROGERS" email="TERESA.ROGERS@sakilacustomer.org" city="Iwakuni" country="Japan" />
+<vwCustomer first_name="DORIS" last_name="REED" email="DORIS.REED@sakilacustomer.org" city="Balaiha" country="Russian Federation" />
+<vwCustomer first_name="GLORIA" last_name="COOK" email="GLORIA.COOK@sakilacustomer.org" city="Papeete" country="French Polynesia" />
+<vwCustomer first_name="EVELYN" last_name="MORGAN" email="EVELYN.MORGAN@sakilacustomer.org" city="Vaduz" country="Liechtenstein" />
+<vwCustomer first_name="JEAN" last_name="BELL" email="JEAN.BELL@sakilacustomer.org" city="Kuching" country="Malaysia" />
+<vwCustomer first_name="CHERYL" last_name="MURPHY" email="CHERYL.MURPHY@sakilacustomer.org" city="Mysore" country="India" />
+<vwCustomer first_name="MILDRED" last_name="BAILEY" email="MILDRED.BAILEY@sakilacustomer.org" city="Jaipur" country="India" />
+<vwCustomer first_name="KATHERINE" last_name="RIVERA" email="KATHERINE.RIVERA@sakilacustomer.org" city="Basel" country="Switzerland" />
+<vwCustomer first_name="JOAN" last_name="COOPER" email="JOAN.COOPER@sakilacustomer.org" city="Saint Louis" country="United States" />
+<vwCustomer first_name="ASHLEY" last_name="RICHARDSON" email="ASHLEY.RICHARDSON@sakilacustomer.org" city="Lincoln" country="United States" />
+<vwCustomer first_name="JUDITH" last_name="COX" email="JUDITH.COX@sakilacustomer.org" city="Daxian" country="China" />
+<vwCustomer first_name="ROSE" last_name="HOWARD" email="ROSE.HOWARD@sakilacustomer.org" city="Cayenne" country="French Guiana" />
+<vwCustomer first_name="JANICE" last_name="WARD" email="JANICE.WARD@sakilacustomer.org" city="Malm" country="Sweden" />
+<vwCustomer first_name="KELLY" last_name="TORRES" email="KELLY.TORRES@sakilacustomer.org" city="Xiangtan" country="China" />
+<vwCustomer first_name="NICOLE" last_name="PETERSON" email="NICOLE.PETERSON@sakilacustomer.org" city="Shivapuri" country="India" />
+<vwCustomer first_name="JUDY" last_name="GRAY" email="JUDY.GRAY@sakilacustomer.org" city="Bchar" country="Algeria" />
+<vwCustomer first_name="CHRISTINA" last_name="RAMIREZ" email="CHRISTINA.RAMIREZ@sakilacustomer.org" city="al-Hawiya" country="Saudi Arabia" />
+<vwCustomer first_name="KATHY" last_name="JAMES" email="KATHY.JAMES@sakilacustomer.org" city="Baybay" country="Philippines" />
+<vwCustomer first_name="THERESA" last_name="WATSON" email="THERESA.WATSON@sakilacustomer.org" city="Taguig" country="Philippines" />
+<vwCustomer first_name="BEVERLY" last_name="BROOKS" email="BEVERLY.BROOKS@sakilacustomer.org" city="Chiayi" country="Taiwan" />
+<vwCustomer first_name="DENISE" last_name="KELLY" email="DENISE.KELLY@sakilacustomer.org" city="Rio Claro" country="Brazil" />
+<vwCustomer first_name="TAMMY" last_name="SANDERS" email="TAMMY.SANDERS@sakilacustomer.org" city="Changhwa" country="Taiwan" />
+<vwCustomer first_name="IRENE" last_name="PRICE" email="IRENE.PRICE@sakilacustomer.org" city="Pavlodar" country="Kazakstan" />
+<vwCustomer first_name="JANE" last_name="BENNETT" email="JANE.BENNETT@sakilacustomer.org" city="Araatuba" country="Brazil" />
+<vwCustomer first_name="LORI" last_name="WOOD" email="LORI.WOOD@sakilacustomer.org" city="Rae Bareli" country="India" />
+<vwCustomer first_name="RACHEL" last_name="BARNES" email="RACHEL.BARNES@sakilacustomer.org" city="Kamakura" country="Japan" />
+<vwCustomer first_name="MARILYN" last_name="ROSS" email="MARILYN.ROSS@sakilacustomer.org" city="Ife" country="Nigeria" />
+<vwCustomer first_name="ANDREA" last_name="HENDERSON" email="ANDREA.HENDERSON@sakilacustomer.org" city="Mahajanga" country="Madagascar" />
+<vwCustomer first_name="KATHRYN" last_name="COLEMAN" email="KATHRYN.COLEMAN@sakilacustomer.org" city="Simferopol" country="Ukraine" />
+<vwCustomer first_name="LOUISE" last_name="JENKINS" email="LOUISE.JENKINS@sakilacustomer.org" city="Springs" country="South Africa" />
+<vwCustomer first_name="SARA" last_name="PERRY" email="SARA.PERRY@sakilacustomer.org" city="Atlixco" country="Mexico" />
+<vwCustomer first_name="ANNE" last_name="POWELL" email="ANNE.POWELL@sakilacustomer.org" city="Bradford" country="United Kingdom" />
+<vwCustomer first_name="JACQUELINE" last_name="LONG" email="JACQUELINE.LONG@sakilacustomer.org" city="Songkhla" country="Thailand" />
+<vwCustomer first_name="WANDA" last_name="PATTERSON" email="WANDA.PATTERSON@sakilacustomer.org" city="Sincelejo" country="Colombia" />
+<vwCustomer first_name="BONNIE" last_name="HUGHES" email="BONNIE.HUGHES@sakilacustomer.org" city="Cheju" country="South Korea" />
+<vwCustomer first_name="JULIA" last_name="FLORES" email="JULIA.FLORES@sakilacustomer.org" city="La Plata" country="Argentina" />
+<vwCustomer first_name="RUBY" last_name="WASHINGTON" email="RUBY.WASHINGTON@sakilacustomer.org" city="Meixian" country="China" />
+<vwCustomer first_name="LOIS" last_name="BUTLER" email="LOIS.BUTLER@sakilacustomer.org" city="Bandar Seri Begawan" country="Brunei" />
+<vwCustomer first_name="TINA" last_name="SIMMONS" email="TINA.SIMMONS@sakilacustomer.org" city="Goinia" country="Brazil" />
+<vwCustomer first_name="PHYLLIS" last_name="FOSTER" email="PHYLLIS.FOSTER@sakilacustomer.org" city="Zalantun" country="China" />
+<vwCustomer first_name="NORMA" last_name="GONZALES" email="NORMA.GONZALES@sakilacustomer.org" city="Bislig" country="Philippines" />
+<vwCustomer first_name="PAULA" last_name="BRYANT" email="PAULA.BRYANT@sakilacustomer.org" city="Pathankot" country="India" />
+<vwCustomer first_name="DIANA" last_name="ALEXANDER" email="DIANA.ALEXANDER@sakilacustomer.org" city="Augusta-Richmond County" country="United States" />
+<vwCustomer first_name="ANNIE" last_name="RUSSELL" email="ANNIE.RUSSELL@sakilacustomer.org" city="Tete" country="Mozambique" />
+<vwCustomer first_name="LILLIAN" last_name="GRIFFIN" email="LILLIAN.GRIFFIN@sakilacustomer.org" city="al-Ayn" country="United Arab Emirates" />
+<vwCustomer first_name="EMILY" last_name="DIAZ" email="EMILY.DIAZ@sakilacustomer.org" city="Kimchon" country="South Korea" />
+<vwCustomer first_name="ROBIN" last_name="HAYES" email="ROBIN.HAYES@sakilacustomer.org" city="Jelets" country="Russian Federation" />
+<vwCustomer first_name="PEGGY" last_name="MYERS" email="PEGGY.MYERS@sakilacustomer.org" city="Abha" country="Saudi Arabia" />
+<vwCustomer first_name="CRYSTAL" last_name="FORD" email="CRYSTAL.FORD@sakilacustomer.org" city="Ashdod" country="Israel" />
+<vwCustomer first_name="GLADYS" last_name="HAMILTON" email="GLADYS.HAMILTON@sakilacustomer.org" city="Ilorin" country="Nigeria" />
+<vwCustomer first_name="RITA" last_name="GRAHAM" email="RITA.GRAHAM@sakilacustomer.org" city="Toulon" country="France" />
+<vwCustomer first_name="DAWN" last_name="SULLIVAN" email="DAWN.SULLIVAN@sakilacustomer.org" city="Funafuti" country="Tuvalu" />
+<vwCustomer first_name="CONNIE" last_name="WALLACE" email="CONNIE.WALLACE@sakilacustomer.org" city="Ivanovo" country="Russian Federation" />
+<vwCustomer first_name="FLORENCE" last_name="WOODS" email="FLORENCE.WOODS@sakilacustomer.org" city="Merlo" country="Argentina" />
+<vwCustomer first_name="TRACY" last_name="COLE" email="TRACY.COLE@sakilacustomer.org" city="Huixquilucan" country="Mexico" />
+<vwCustomer first_name="EDNA" last_name="WEST" email="EDNA.WEST@sakilacustomer.org" city="Klerksdorp" country="South Africa" />
+<vwCustomer first_name="TIFFANY" last_name="JORDAN" email="TIFFANY.JORDAN@sakilacustomer.org" city="Enshi" country="China" />
+<vwCustomer first_name="CARMEN" last_name="OWENS" email="CARMEN.OWENS@sakilacustomer.org" city="Caracas" country="Venezuela" />
+<vwCustomer first_name="ROSA" last_name="REYNOLDS" email="ROSA.REYNOLDS@sakilacustomer.org" city="Lancaster" country="United States" />
+<vwCustomer first_name="CINDY" last_name="FISHER" email="CINDY.FISHER@sakilacustomer.org" city="Cuman" country="Venezuela" />
+<vwCustomer first_name="GRACE" last_name="ELLIS" email="GRACE.ELLIS@sakilacustomer.org" city="Duisburg" country="Germany" />
+<vwCustomer first_name="WENDY" last_name="HARRISON" email="WENDY.HARRISON@sakilacustomer.org" city="Nezahualcyotl" country="Mexico" />
+<vwCustomer first_name="VICTORIA" last_name="GIBSON" email="VICTORIA.GIBSON@sakilacustomer.org" city="Pemalang" country="Indonesia" />
+<vwCustomer first_name="EDITH" last_name="MCDONALD" email="EDITH.MCDONALD@sakilacustomer.org" city="Gandhinagar" country="India" />
+<vwCustomer first_name="KIM" last_name="CRUZ" email="KIM.CRUZ@sakilacustomer.org" city="Grand Prairie" country="United States" />
+<vwCustomer first_name="SHERRY" last_name="MARSHALL" email="SHERRY.MARSHALL@sakilacustomer.org" city="Shubra al-Khayma" country="Egypt" />
+<vwCustomer first_name="SYLVIA" last_name="ORTIZ" email="SYLVIA.ORTIZ@sakilacustomer.org" city="Dos Quebradas" country="Colombia" />
+<vwCustomer first_name="JOSEPHINE" last_name="GOMEZ" email="JOSEPHINE.GOMEZ@sakilacustomer.org" city="Etawah" country="India" />
+<vwCustomer first_name="THELMA" last_name="MURRAY" email="THELMA.MURRAY@sakilacustomer.org" city="Lima" country="Peru" />
+<vwCustomer first_name="SHANNON" last_name="FREEMAN" email="SHANNON.FREEMAN@sakilacustomer.org" city="Varanasi (Benares)" country="India" />
+<vwCustomer first_name="SHEILA" last_name="WELLS" email="SHEILA.WELLS@sakilacustomer.org" city="Ktahya" country="Turkey" />
+<vwCustomer first_name="ETHEL" last_name="WEBB" email="ETHEL.WEBB@sakilacustomer.org" city="Boksburg" country="South Africa" />
+<vwCustomer first_name="ELLEN" last_name="SIMPSON" email="ELLEN.SIMPSON@sakilacustomer.org" city="Po" country="Brazil" />
+<vwCustomer first_name="ELAINE" last_name="STEVENS" email="ELAINE.STEVENS@sakilacustomer.org" city="Smolensk" country="Russian Federation" />
+<vwCustomer first_name="MARJORIE" last_name="TUCKER" email="MARJORIE.TUCKER@sakilacustomer.org" city="Jastrzebie-Zdrj" country="Poland" />
+<vwCustomer first_name="CARRIE" last_name="PORTER" email="CARRIE.PORTER@sakilacustomer.org" city="Liaocheng" country="China" />
+<vwCustomer first_name="CHARLOTTE" last_name="HUNTER" email="CHARLOTTE.HUNTER@sakilacustomer.org" city="guas Lindas de Gois" country="Brazil" />
+<vwCustomer first_name="MONICA" last_name="HICKS" email="MONICA.HICKS@sakilacustomer.org" city="Mukateve" country="Ukraine" />
+<vwCustomer first_name="ESTHER" last_name="CRAWFORD" email="ESTHER.CRAWFORD@sakilacustomer.org" city="Botshabelo" country="South Africa" />
+<vwCustomer first_name="PAULINE" last_name="HENRY" email="PAULINE.HENRY@sakilacustomer.org" city="Torren" country="Mexico" />
+<vwCustomer first_name="EMMA" last_name="BOYD" email="EMMA.BOYD@sakilacustomer.org" city="Qalyub" country="Egypt" />
+<vwCustomer first_name="JUANITA" last_name="MASON" email="JUANITA.MASON@sakilacustomer.org" city="Pune" country="India" />
+<vwCustomer first_name="ANITA" last_name="MORALES" email="ANITA.MORALES@sakilacustomer.org" city="Hubli-Dharwad" country="India" />
+<vwCustomer first_name="RHONDA" last_name="KENNEDY" email="RHONDA.KENNEDY@sakilacustomer.org" city="Apeldoorn" country="Netherlands" />
+<vwCustomer first_name="HAZEL" last_name="WARREN" email="HAZEL.WARREN@sakilacustomer.org" city="Hohhot" country="China" />
+<vwCustomer first_name="AMBER" last_name="DIXON" email="AMBER.DIXON@sakilacustomer.org" city="Touliu" country="Taiwan" />
+<vwCustomer first_name="EVA" last_name="RAMOS" email="EVA.RAMOS@sakilacustomer.org" city="Clarksville" country="United States" />
+<vwCustomer first_name="DEBBIE" last_name="REYES" email="DEBBIE.REYES@sakilacustomer.org" city="Fukuyama" country="Japan" />
+<vwCustomer first_name="APRIL" last_name="BURNS" email="APRIL.BURNS@sakilacustomer.org" city="Dundee" country="United Kingdom" />
+<vwCustomer first_name="LESLIE" last_name="GORDON" email="LESLIE.GORDON@sakilacustomer.org" city="Kilis" country="Turkey" />
+<vwCustomer first_name="CLARA" last_name="SHAW" email="CLARA.SHAW@sakilacustomer.org" city="Molodetno" country="Belarus" />
+<vwCustomer first_name="LUCILLE" last_name="HOLMES" email="LUCILLE.HOLMES@sakilacustomer.org" city="Soshanguve" country="South Africa" />
+<vwCustomer first_name="JAMIE" last_name="RICE" email="JAMIE.RICE@sakilacustomer.org" city="Sterling Heights" country="United States" />
+<vwCustomer first_name="JOANNE" last_name="ROBERTSON" email="JOANNE.ROBERTSON@sakilacustomer.org" city="Urawa" country="Japan" />
+<vwCustomer first_name="ELEANOR" last_name="HUNT" email="ELEANOR.HUNT@sakilacustomer.org" city="Saint-Denis" country="Runion" />
+<vwCustomer first_name="VALERIE" last_name="BLACK" email="VALERIE.BLACK@sakilacustomer.org" city="Brockton" country="United States" />
+<vwCustomer first_name="DANIELLE" last_name="DANIELS" email="DANIELLE.DANIELS@sakilacustomer.org" city="Hidalgo" country="Mexico" />
+<vwCustomer first_name="MEGAN" last_name="PALMER" email="MEGAN.PALMER@sakilacustomer.org" city="Laiwu" country="China" />
+<vwCustomer first_name="ALICIA" last_name="MILLS" email="ALICIA.MILLS@sakilacustomer.org" city="Nagaon" country="India" />
+<vwCustomer first_name="SUZANNE" last_name="NICHOLS" email="SUZANNE.NICHOLS@sakilacustomer.org" city="Jakarta" country="Indonesia" />
+<vwCustomer first_name="MICHELE" last_name="GRANT" email="MICHELE.GRANT@sakilacustomer.org" city="Yuncheng" country="China" />
+<vwCustomer first_name="GAIL" last_name="KNIGHT" email="GAIL.KNIGHT@sakilacustomer.org" city="Bern" country="Switzerland" />
+<vwCustomer first_name="BERTHA" last_name="FERGUSON" email="BERTHA.FERGUSON@sakilacustomer.org" city="Ondo" country="Nigeria" />
+<vwCustomer first_name="DARLENE" last_name="ROSE" email="DARLENE.ROSE@sakilacustomer.org" city="Pyongyang" country="North Korea" />
+<vwCustomer first_name="VERONICA" last_name="STONE" email="VERONICA.STONE@sakilacustomer.org" city="Greensboro" country="United States" />
+<vwCustomer first_name="JILL" last_name="HAWKINS" email="JILL.HAWKINS@sakilacustomer.org" city="Linz" country="Austria" />
+<vwCustomer first_name="ERIN" last_name="DUNN" email="ERIN.DUNN@sakilacustomer.org" city="Ljubertsy" country="Russian Federation" />
+<vwCustomer first_name="GERALDINE" last_name="PERKINS" email="GERALDINE.PERKINS@sakilacustomer.org" city="Tel Aviv-Jaffa" country="Israel" />
+<vwCustomer first_name="LAUREN" last_name="HUDSON" email="LAUREN.HUDSON@sakilacustomer.org" city="Le Mans" country="France" />
+<vwCustomer first_name="CATHY" last_name="SPENCER" email="CATHY.SPENCER@sakilacustomer.org" city="Kakamigahara" country="Japan" />
+<vwCustomer first_name="JOANN" last_name="GARDNER" email="JOANN.GARDNER@sakilacustomer.org" city="Tarsus" country="Turkey" />
+<vwCustomer first_name="LORRAINE" last_name="STEPHENS" email="LORRAINE.STEPHENS@sakilacustomer.org" city="Hami" country="China" />
+<vwCustomer first_name="LYNN" last_name="PAYNE" email="LYNN.PAYNE@sakilacustomer.org" city="Lilongwe" country="Malawi" />
+<vwCustomer first_name="SALLY" last_name="PIERCE" email="SALLY.PIERCE@sakilacustomer.org" city="Chandrapur" country="India" />
+<vwCustomer first_name="REGINA" last_name="BERRY" email="REGINA.BERRY@sakilacustomer.org" city="Jinchang" country="China" />
+<vwCustomer first_name="ERICA" last_name="MATTHEWS" email="ERICA.MATTHEWS@sakilacustomer.org" city="Pingxiang" country="China" />
+<vwCustomer first_name="BEATRICE" last_name="ARNOLD" email="BEATRICE.ARNOLD@sakilacustomer.org" city="Udaipur" country="India" />
+<vwCustomer first_name="DOLORES" last_name="WAGNER" email="DOLORES.WAGNER@sakilacustomer.org" city="Ipoh" country="Malaysia" />
+<vwCustomer first_name="BERNICE" last_name="WILLIS" email="BERNICE.WILLIS@sakilacustomer.org" city="Batman" country="Turkey" />
+<vwCustomer first_name="AUDREY" last_name="RAY" email="AUDREY.RAY@sakilacustomer.org" city="Graz" country="Austria" />
+<vwCustomer first_name="YVONNE" last_name="WATKINS" email="YVONNE.WATKINS@sakilacustomer.org" city="Ocumare del Tuy" country="Venezuela" />
+<vwCustomer first_name="ANNETTE" last_name="OLSON" email="ANNETTE.OLSON@sakilacustomer.org" city="Allappuzha (Alleppey)" country="India" />
+<vwCustomer first_name="JUNE" last_name="CARROLL" email="JUNE.CARROLL@sakilacustomer.org" city="Skikda" country="Algeria" />
+<vwCustomer first_name="SAMANTHA" last_name="DUNCAN" email="SAMANTHA.DUNCAN@sakilacustomer.org" city="Matamoros" country="Mexico" />
+<vwCustomer first_name="MARION" last_name="SNYDER" email="MARION.SNYDER@sakilacustomer.org" city="Santa Brbara dOeste" country="Brazil" />
+<vwCustomer first_name="DANA" last_name="HART" email="DANA.HART@sakilacustomer.org" city="Kirovo-Tepetsk" country="Russian Federation" />
+<vwCustomer first_name="STACY" last_name="CUNNINGHAM" email="STACY.CUNNINGHAM@sakilacustomer.org" city="Pereira" country="Colombia" />
+<vwCustomer first_name="ANA" last_name="BRADLEY" email="ANA.BRADLEY@sakilacustomer.org" city="Memphis" country="United States" />
+<vwCustomer first_name="RENEE" last_name="LANE" email="RENEE.LANE@sakilacustomer.org" city="Compton" country="United States" />
+<vwCustomer first_name="IDA" last_name="ANDREWS" email="IDA.ANDREWS@sakilacustomer.org" city="Luzinia" country="Brazil" />
+<vwCustomer first_name="VIVIAN" last_name="RUIZ" email="VIVIAN.RUIZ@sakilacustomer.org" city="s-Hertogenbosch" country="Netherlands" />
+<vwCustomer first_name="ROBERTA" last_name="HARPER" email="ROBERTA.HARPER@sakilacustomer.org" city="Shahr-e Kord" country="Iran" />
+<vwCustomer first_name="HOLLY" last_name="FOX" email="HOLLY.FOX@sakilacustomer.org" city="Haldia" country="India" />
+<vwCustomer first_name="BRITTANY" last_name="RILEY" email="BRITTANY.RILEY@sakilacustomer.org" city="Sumy" country="Ukraine" />
+<vwCustomer first_name="MELANIE" last_name="ARMSTRONG" email="MELANIE.ARMSTRONG@sakilacustomer.org" city="Bayugan" country="Philippines" />
+<vwCustomer first_name="LORETTA" last_name="CARPENTER" email="LORETTA.CARPENTER@sakilacustomer.org" city="Oshawa" country="Canada" />
+<vwCustomer first_name="YOLANDA" last_name="WEAVER" email="YOLANDA.WEAVER@sakilacustomer.org" city="Tabora" country="Tanzania" />
+<vwCustomer first_name="JEANETTE" last_name="GREENE" email="JEANETTE.GREENE@sakilacustomer.org" city="Novoterkassk" country="Russian Federation" />
+<vwCustomer first_name="LAURIE" last_name="LAWRENCE" email="LAURIE.LAWRENCE@sakilacustomer.org" city="Firozabad" country="India" />
+<vwCustomer first_name="KATIE" last_name="ELLIOTT" email="KATIE.ELLIOTT@sakilacustomer.org" city="Kisumu" country="Kenya" />
+<vwCustomer first_name="KRISTEN" last_name="CHAVEZ" email="KRISTEN.CHAVEZ@sakilacustomer.org" city="Hino" country="Japan" />
+<vwCustomer first_name="VANESSA" last_name="SIMS" email="VANESSA.SIMS@sakilacustomer.org" city="Siegen" country="Germany" />
+<vwCustomer first_name="ALMA" last_name="AUSTIN" email="ALMA.AUSTIN@sakilacustomer.org" city="Mannheim" country="Germany" />
+<vwCustomer first_name="SUE" last_name="PETERS" email="SUE.PETERS@sakilacustomer.org" city="Changzhou" country="China" />
+<vwCustomer first_name="ELSIE" last_name="KELLEY" email="ELSIE.KELLEY@sakilacustomer.org" city="Ikerre" country="Nigeria" />
+<vwCustomer first_name="BETH" last_name="FRANKLIN" email="BETH.FRANKLIN@sakilacustomer.org" city="Haiphong" country="Vietnam" />
+<vwCustomer first_name="JEANNE" last_name="LAWSON" email="JEANNE.LAWSON@sakilacustomer.org" city="Ashgabat" country="Turkmenistan" />
+<vwCustomer first_name="VICKI" last_name="FIELDS" email="VICKI.FIELDS@sakilacustomer.org" city="Witten" country="Germany" />
+<vwCustomer first_name="CARLA" last_name="GUTIERREZ" email="CARLA.GUTIERREZ@sakilacustomer.org" city="Bhusawal" country="India" />
+<vwCustomer first_name="TARA" last_name="RYAN" email="TARA.RYAN@sakilacustomer.org" city="Gorontalo" country="Indonesia" />
+<vwCustomer first_name="ROSEMARY" last_name="SCHMIDT" email="ROSEMARY.SCHMIDT@sakilacustomer.org" city="Usak" country="Turkey" />
+<vwCustomer first_name="EILEEN" last_name="CARR" email="EILEEN.CARR@sakilacustomer.org" city="Ciudad del Este" country="Paraguay" />
+<vwCustomer first_name="TERRI" last_name="VASQUEZ" email="TERRI.VASQUEZ@sakilacustomer.org" city="Blumenau" country="Brazil" />
+<vwCustomer first_name="GERTRUDE" last_name="CASTILLO" email="GERTRUDE.CASTILLO@sakilacustomer.org" city="Nuuk" country="Greenland" />
+<vwCustomer first_name="LUCY" last_name="WHEELER" email="LUCY.WHEELER@sakilacustomer.org" city="Balurghat" country="India" />
+<vwCustomer first_name="TONYA" last_name="CHAPMAN" email="TONYA.CHAPMAN@sakilacustomer.org" city="Bhilwara" country="India" />
+<vwCustomer first_name="ELLA" last_name="OLIVER" email="ELLA.OLIVER@sakilacustomer.org" city="Aden" country="Yemen" />
+<vwCustomer first_name="STACEY" last_name="MONTGOMERY" email="STACEY.MONTGOMERY@sakilacustomer.org" city="Fuyu" country="China" />
+<vwCustomer first_name="WILMA" last_name="RICHARDS" email="WILMA.RICHARDS@sakilacustomer.org" city="Bellevue" country="United States" />
+<vwCustomer first_name="GINA" last_name="WILLIAMSON" email="GINA.WILLIAMSON@sakilacustomer.org" city="Taizz" country="Yemen" />
+<vwCustomer first_name="KRISTIN" last_name="JOHNSTON" email="KRISTIN.JOHNSTON@sakilacustomer.org" city="Sunnyvale" country="United States" />
+<vwCustomer first_name="JESSIE" last_name="BANKS" email="JESSIE.BANKS@sakilacustomer.org" city="Stara Zagora" country="Bulgaria" />
+<vwCustomer first_name="NATALIE" last_name="MEYER" email="NATALIE.MEYER@sakilacustomer.org" city="Aparecida de Goinia" country="Brazil" />
+<vwCustomer first_name="AGNES" last_name="BISHOP" email="AGNES.BISHOP@sakilacustomer.org" city="Sambhal" country="India" />
+<vwCustomer first_name="VERA" last_name="MCCOY" email="VERA.MCCOY@sakilacustomer.org" city="Kabul" country="Afghanistan" />
+<vwCustomer first_name="WILLIE" last_name="HOWELL" email="WILLIE.HOWELL@sakilacustomer.org" city="Vicente Lpez" country="Argentina" />
+<vwCustomer first_name="CHARLENE" last_name="ALVAREZ" email="CHARLENE.ALVAREZ@sakilacustomer.org" city="Zanzibar" country="Tanzania" />
+<vwCustomer first_name="BESSIE" last_name="MORRISON" email="BESSIE.MORRISON@sakilacustomer.org" city="Syrakusa" country="Italy" />
+<vwCustomer first_name="DELORES" last_name="HANSEN" email="DELORES.HANSEN@sakilacustomer.org" city="Jaroslavl" country="Russian Federation" />
+<vwCustomer first_name="MELINDA" last_name="FERNANDEZ" email="MELINDA.FERNANDEZ@sakilacustomer.org" city="Mandi Bahauddin" country="Pakistan" />
+<vwCustomer first_name="PEARL" last_name="GARZA" email="PEARL.GARZA@sakilacustomer.org" city="Jodhpur" country="India" />
+<vwCustomer first_name="ARLENE" last_name="HARVEY" email="ARLENE.HARVEY@sakilacustomer.org" city="Ambattur" country="India" />
+<vwCustomer first_name="MAUREEN" last_name="LITTLE" email="MAUREEN.LITTLE@sakilacustomer.org" city="Asuncin" country="Paraguay" />
+<vwCustomer first_name="COLLEEN" last_name="BURTON" email="COLLEEN.BURTON@sakilacustomer.org" city="Saarbrcken" country="Germany" />
+<vwCustomer first_name="ALLISON" last_name="STANLEY" email="ALLISON.STANLEY@sakilacustomer.org" city="Phnom Penh" country="Cambodia" />
+<vwCustomer first_name="TAMARA" last_name="NGUYEN" email="TAMARA.NGUYEN@sakilacustomer.org" city="Anpolis" country="Brazil" />
+<vwCustomer first_name="JOY" last_name="GEORGE" email="JOY.GEORGE@sakilacustomer.org" city="Botosani" country="Romania" />
+<vwCustomer first_name="GEORGIA" last_name="JACOBS" email="GEORGIA.JACOBS@sakilacustomer.org" city="Uttarpara-Kotrung" country="India" />
+<vwCustomer first_name="CONSTANCE" last_name="REID" email="CONSTANCE.REID@sakilacustomer.org" city="Zaria" country="Nigeria" />
+<vwCustomer first_name="LILLIE" last_name="KIM" email="LILLIE.KIM@sakilacustomer.org" city="Idfu" country="Egypt" />
+<vwCustomer first_name="CLAUDIA" last_name="FULLER" email="CLAUDIA.FULLER@sakilacustomer.org" city="Jalib al-Shuyukh" country="Kuwait" />
+<vwCustomer first_name="JACKIE" last_name="LYNCH" email="JACKIE.LYNCH@sakilacustomer.org" city="Buenaventura" country="Colombia" />
+<vwCustomer first_name="MARCIA" last_name="DEAN" email="MARCIA.DEAN@sakilacustomer.org" city="Tanza" country="Philippines" />
+<vwCustomer first_name="TANYA" last_name="GILBERT" email="TANYA.GILBERT@sakilacustomer.org" city="Naju" country="South Korea" />
+<vwCustomer first_name="NELLIE" last_name="GARRETT" email="NELLIE.GARRETT@sakilacustomer.org" city="Shimoga" country="India" />
+<vwCustomer first_name="MINNIE" last_name="ROMERO" email="MINNIE.ROMERO@sakilacustomer.org" city="Ciomas" country="Indonesia" />
+<vwCustomer first_name="MARLENE" last_name="WELCH" email="MARLENE.WELCH@sakilacustomer.org" city="Iwaki" country="Japan" />
+<vwCustomer first_name="HEIDI" last_name="LARSON" email="HEIDI.LARSON@sakilacustomer.org" city="Xiangfan" country="China" />
+<vwCustomer first_name="GLENDA" last_name="FRAZIER" email="GLENDA.FRAZIER@sakilacustomer.org" city="Qinhuangdao" country="China" />
+<vwCustomer first_name="LYDIA" last_name="BURKE" email="LYDIA.BURKE@sakilacustomer.org" city="San Miguel de Tucumn" country="Argentina" />
+<vwCustomer first_name="VIOLA" last_name="HANSON" email="VIOLA.HANSON@sakilacustomer.org" city="Lapu-Lapu" country="Philippines" />
+<vwCustomer first_name="COURTNEY" last_name="DAY" email="COURTNEY.DAY@sakilacustomer.org" city="Uijongbu" country="South Korea" />
+<vwCustomer first_name="MARIAN" last_name="MENDOZA" email="MARIAN.MENDOZA@sakilacustomer.org" city="Maring" country="Brazil" />
+<vwCustomer first_name="STELLA" last_name="MORENO" email="STELLA.MORENO@sakilacustomer.org" city="Coacalco de Berriozbal" country="Mexico" />
+<vwCustomer first_name="CAROLINE" last_name="BOWMAN" email="CAROLINE.BOWMAN@sakilacustomer.org" city="Tallahassee" country="United States" />
+<vwCustomer first_name="DORA" last_name="MEDINA" email="DORA.MEDINA@sakilacustomer.org" city="Tianjin" country="China" />
+<vwCustomer first_name="JO" last_name="FOWLER" email="JO.FOWLER@sakilacustomer.org" city="Oyo" country="Nigeria" />
+<vwCustomer first_name="VICKIE" last_name="BREWER" email="VICKIE.BREWER@sakilacustomer.org" city="Halle/Saale" country="Germany" />
+<vwCustomer first_name="MATTIE" last_name="HOFFMAN" email="MATTIE.HOFFMAN@sakilacustomer.org" city="London" country="United Kingdom" />
+<vwCustomer first_name="TERRY" last_name="CARLSON" email="TERRY.CARLSON@sakilacustomer.org" city="Miyakonojo" country="Japan" />
+<vwCustomer first_name="MAXINE" last_name="SILVA" email="MAXINE.SILVA@sakilacustomer.org" city="Poos de Caldas" country="Brazil" />
+<vwCustomer first_name="IRMA" last_name="PEARSON" email="IRMA.PEARSON@sakilacustomer.org" city="Hagonoy" country="Philippines" />
+<vwCustomer first_name="MABEL" last_name="HOLLAND" email="MABEL.HOLLAND@sakilacustomer.org" city="Monywa" country="Myanmar" />
+<vwCustomer first_name="MARSHA" last_name="DOUGLAS" email="MARSHA.DOUGLAS@sakilacustomer.org" city="Beira" country="Mozambique" />
+<vwCustomer first_name="MYRTLE" last_name="FLEMING" email="MYRTLE.FLEMING@sakilacustomer.org" city="Santiago de los Caballeros" country="Dominican Republic" />
+<vwCustomer first_name="LENA" last_name="JENSEN" email="LENA.JENSEN@sakilacustomer.org" city="Halisahar" country="India" />
+<vwCustomer first_name="CHRISTY" last_name="VARGAS" email="CHRISTY.VARGAS@sakilacustomer.org" city="Datong" country="China" />
+<vwCustomer first_name="DEANNA" last_name="BYRD" email="DEANNA.BYRD@sakilacustomer.org" city="Tuguegarao" country="Philippines" />
+<vwCustomer first_name="PATSY" last_name="DAVIDSON" email="PATSY.DAVIDSON@sakilacustomer.org" city="Portoviejo" country="Ecuador" />
+<vwCustomer first_name="HILDA" last_name="HOPKINS" email="HILDA.HOPKINS@sakilacustomer.org" city="Mandaluyong" country="Philippines" />
+<vwCustomer first_name="GWENDOLYN" last_name="MAY" email="GWENDOLYN.MAY@sakilacustomer.org" city="Higashiosaka" country="Japan" />
+<vwCustomer first_name="JENNIE" last_name="TERRY" email="JENNIE.TERRY@sakilacustomer.org" city="Olomouc" country="Czech Republic" />
+<vwCustomer first_name="NORA" last_name="HERRERA" email="NORA.HERRERA@sakilacustomer.org" city="Salzburg" country="Austria" />
+<vwCustomer first_name="MARGIE" last_name="WADE" email="MARGIE.WADE@sakilacustomer.org" city="Lengshuijiang" country="China" />
+<vwCustomer first_name="NINA" last_name="SOTO" email="NINA.SOTO@sakilacustomer.org" city="Palghat (Palakkad)" country="India" />
+<vwCustomer first_name="CASSANDRA" last_name="WALTERS" email="CASSANDRA.WALTERS@sakilacustomer.org" city="Salinas" country="United States" />
+<vwCustomer first_name="LEAH" last_name="CURTIS" email="LEAH.CURTIS@sakilacustomer.org" city="Kalisz" country="Poland" />
+<vwCustomer first_name="PENNY" last_name="NEAL" email="PENNY.NEAL@sakilacustomer.org" city="Kumbakonam" country="India" />
+<vwCustomer first_name="KAY" last_name="CALDWELL" email="KAY.CALDWELL@sakilacustomer.org" city="Yantai" country="China" />
+<vwCustomer first_name="PRISCILLA" last_name="LOWE" email="PRISCILLA.LOWE@sakilacustomer.org" city="Salamanca" country="Mexico" />
+<vwCustomer first_name="NAOMI" last_name="JENNINGS" email="NAOMI.JENNINGS@sakilacustomer.org" city="Karnal" country="India" />
+<vwCustomer first_name="CAROLE" last_name="BARNETT" email="CAROLE.BARNETT@sakilacustomer.org" city="Peoria" country="United States" />
+<vwCustomer first_name="BRANDY" last_name="GRAVES" email="BRANDY.GRAVES@sakilacustomer.org" city="Warren" country="United States" />
+<vwCustomer first_name="OLGA" last_name="JIMENEZ" email="OLGA.JIMENEZ@sakilacustomer.org" city="Ogbomosho" country="Nigeria" />
+<vwCustomer first_name="BILLIE" last_name="HORTON" email="BILLIE.HORTON@sakilacustomer.org" city="Inegl" country="Turkey" />
+<vwCustomer first_name="DIANNE" last_name="SHELTON" email="DIANNE.SHELTON@sakilacustomer.org" city="Tabriz" country="Iran" />
+<vwCustomer first_name="TRACEY" last_name="BARRETT" email="TRACEY.BARRETT@sakilacustomer.org" city="Owo" country="Nigeria" />
+<vwCustomer first_name="LEONA" last_name="OBRIEN" email="LEONA.OBRIEN@sakilacustomer.org" city="Fuzhou" country="China" />
+<vwCustomer first_name="JENNY" last_name="CASTRO" email="JENNY.CASTRO@sakilacustomer.org" city="Ponce" country="Puerto Rico" />
+<vwCustomer first_name="FELICIA" last_name="SUTTON" email="FELICIA.SUTTON@sakilacustomer.org" city="Korla" country="China" />
+<vwCustomer first_name="SONIA" last_name="GREGORY" email="SONIA.GREGORY@sakilacustomer.org" city="Benin City" country="Nigeria" />
+<vwCustomer first_name="MIRIAM" last_name="MCKINNEY" email="MIRIAM.MCKINNEY@sakilacustomer.org" city="Otsu" country="Japan" />
+<vwCustomer first_name="VELMA" last_name="LUCAS" email="VELMA.LUCAS@sakilacustomer.org" city="Effon-Alaiye" country="Nigeria" />
+<vwCustomer first_name="BECKY" last_name="MILES" email="BECKY.MILES@sakilacustomer.org" city="Tambaram" country="India" />
+<vwCustomer first_name="BOBBIE" last_name="CRAIG" email="BOBBIE.CRAIG@sakilacustomer.org" city="Valle de Santiago" country="Mexico" />
+<vwCustomer first_name="VIOLET" last_name="RODRIQUEZ" email="VIOLET.RODRIQUEZ@sakilacustomer.org" city="Kowloon and New Kowloon" country="Hong Kong" />
+<vwCustomer first_name="KRISTINA" last_name="CHAMBERS" email="KRISTINA.CHAMBERS@sakilacustomer.org" city="Valle de la Pascua" country="Venezuela" />
+<vwCustomer first_name="TONI" last_name="HOLT" email="TONI.HOLT@sakilacustomer.org" city="Roanoke" country="United States" />
+<vwCustomer first_name="MISTY" last_name="LAMBERT" email="MISTY.LAMBERT@sakilacustomer.org" city="Sharja" country="United Arab Emirates" />
+<vwCustomer first_name="MAE" last_name="FLETCHER" email="MAE.FLETCHER@sakilacustomer.org" city="Donostia-San Sebastin" country="Spain" />
+<vwCustomer first_name="SHELLY" last_name="WATTS" email="SHELLY.WATTS@sakilacustomer.org" city="Dayton" country="United States" />
+<vwCustomer first_name="DAISY" last_name="BATES" email="DAISY.BATES@sakilacustomer.org" city="Kolpino" country="Russian Federation" />
+<vwCustomer first_name="RAMONA" last_name="HALE" email="RAMONA.HALE@sakilacustomer.org" city="Patiala" country="India" />
+<vwCustomer first_name="SHERRI" last_name="RHODES" email="SHERRI.RHODES@sakilacustomer.org" city="Ahmadnagar" country="India" />
+<vwCustomer first_name="ERIKA" last_name="PENA" email="ERIKA.PENA@sakilacustomer.org" city="Oulu" country="Finland" />
+<vwCustomer first_name="JAMES" last_name="GANNON" email="JAMES.GANNON@sakilacustomer.org" city="Hiroshima" country="Japan" />
+<vwCustomer first_name="JOHN" last_name="FARNSWORTH" email="JOHN.FARNSWORTH@sakilacustomer.org" city="Parbhani" country="India" />
+<vwCustomer first_name="ROBERT" last_name="BAUGHMAN" email="ROBERT.BAUGHMAN@sakilacustomer.org" city="Kaliningrad" country="Russian Federation" />
+<vwCustomer first_name="MICHAEL" last_name="SILVERMAN" email="MICHAEL.SILVERMAN@sakilacustomer.org" city="Tiefa" country="China" />
+<vwCustomer first_name="WILLIAM" last_name="SATTERFIELD" email="WILLIAM.SATTERFIELD@sakilacustomer.org" city="Sanaa" country="Yemen" />
+<vwCustomer first_name="DAVID" last_name="ROYAL" email="DAVID.ROYAL@sakilacustomer.org" city="Callao" country="Peru" />
+<vwCustomer first_name="RICHARD" last_name="MCCRARY" email="RICHARD.MCCRARY@sakilacustomer.org" city="Arlington" country="United States" />
+<vwCustomer first_name="CHARLES" last_name="KOWALSKI" email="CHARLES.KOWALSKI@sakilacustomer.org" city="Sungai Petani" country="Malaysia" />
+<vwCustomer first_name="JOSEPH" last_name="JOY" email="JOSEPH.JOY@sakilacustomer.org" city="Angra dos Reis" country="Brazil" />
+<vwCustomer first_name="THOMAS" last_name="GRIGSBY" email="THOMAS.GRIGSBY@sakilacustomer.org" city="Kansas City" country="United States" />
+<vwCustomer first_name="CHRISTOPHER" last_name="GRECO" email="CHRISTOPHER.GRECO@sakilacustomer.org" city="Brescia" country="Italy" />
+<vwCustomer first_name="DANIEL" last_name="CABRAL" email="DANIEL.CABRAL@sakilacustomer.org" city="Ibirit" country="Brazil" />
+<vwCustomer first_name="PAUL" last_name="TROUT" email="PAUL.TROUT@sakilacustomer.org" city="Kursk" country="Russian Federation" />
+<vwCustomer first_name="MARK" last_name="RINEHART" email="MARK.RINEHART@sakilacustomer.org" city="Tabuk" country="Saudi Arabia" />
+<vwCustomer first_name="DONALD" last_name="MAHON" email="DONALD.MAHON@sakilacustomer.org" city="Ezhou" country="China" />
+<vwCustomer first_name="GEORGE" last_name="LINTON" email="GEORGE.LINTON@sakilacustomer.org" city="Sorocaba" country="Brazil" />
+<vwCustomer first_name="KENNETH" last_name="GOODEN" email="KENNETH.GOODEN@sakilacustomer.org" city="Bat Yam" country="Israel" />
+<vwCustomer first_name="STEVEN" last_name="CURLEY" email="STEVEN.CURLEY@sakilacustomer.org" city="Miraj" country="India" />
+<vwCustomer first_name="EDWARD" last_name="BAUGH" email="EDWARD.BAUGH@sakilacustomer.org" city="Trshavn" country="Faroe Islands" />
+<vwCustomer first_name="BRIAN" last_name="WYMAN" email="BRIAN.WYMAN@sakilacustomer.org" city="Bydgoszcz" country="Poland" />
+<vwCustomer first_name="RONALD" last_name="WEINER" email="RONALD.WEINER@sakilacustomer.org" city="San Felipe del Progreso" country="Mexico" />
+<vwCustomer first_name="ANTHONY" last_name="SCHWAB" email="ANTHONY.SCHWAB@sakilacustomer.org" city="Tafuna" country="American Samoa" />
+<vwCustomer first_name="KEVIN" last_name="SCHULER" email="KEVIN.SCHULER@sakilacustomer.org" city="Birgunj" country="Nepal" />
+<vwCustomer first_name="JASON" last_name="MORRISSEY" email="JASON.MORRISSEY@sakilacustomer.org" city="Baha Blanca" country="Argentina" />
+<vwCustomer first_name="MATTHEW" last_name="MAHAN" email="MATTHEW.MAHAN@sakilacustomer.org" city="Cuautla" country="Mexico" />
+<vwCustomer first_name="GARY" last_name="COY" email="GARY.COY@sakilacustomer.org" city="Yuzhou" country="China" />
+<vwCustomer first_name="TIMOTHY" last_name="BUNN" email="TIMOTHY.BUNN@sakilacustomer.org" city="Braslia" country="Brazil" />
+<vwCustomer first_name="JOSE" last_name="ANDREW" email="JOSE.ANDREW@sakilacustomer.org" city="Kingstown" country="Saint Vincent and the Grenadines" />
+<vwCustomer first_name="LARRY" last_name="THRASHER" email="LARRY.THRASHER@sakilacustomer.org" city="Adana" country="Turkey" />
+<vwCustomer first_name="JEFFREY" last_name="SPEAR" email="JEFFREY.SPEAR@sakilacustomer.org" city="Ciparay" country="Indonesia" />
+<vwCustomer first_name="FRANK" last_name="WAGGONER" email="FRANK.WAGGONER@sakilacustomer.org" city="Jamalpur" country="Bangladesh" />
+<vwCustomer first_name="SCOTT" last_name="SHELLEY" email="SCOTT.SHELLEY@sakilacustomer.org" city="Aurora" country="United States" />
+<vwCustomer first_name="ERIC" last_name="ROBERT" email="ERIC.ROBERT@sakilacustomer.org" city="Santa F" country="Argentina" />
+<vwCustomer first_name="STEPHEN" last_name="QUALLS" email="STEPHEN.QUALLS@sakilacustomer.org" city="Dhaka" country="Bangladesh" />
+<vwCustomer first_name="ANDREW" last_name="PURDY" email="ANDREW.PURDY@sakilacustomer.org" city="Baku" country="Azerbaijan" />
+<vwCustomer first_name="RAYMOND" last_name="MCWHORTER" email="RAYMOND.MCWHORTER@sakilacustomer.org" city="Sumqayit" country="Azerbaijan" />
+<vwCustomer first_name="GREGORY" last_name="MAULDIN" email="GREGORY.MAULDIN@sakilacustomer.org" city="Sousse" country="Tunisia" />
+<vwCustomer first_name="JOSHUA" last_name="MARK" email="JOSHUA.MARK@sakilacustomer.org" city="Rampur" country="India" />
+<vwCustomer first_name="JERRY" last_name="JORDON" email="JERRY.JORDON@sakilacustomer.org" city="Onomichi" country="Japan" />
+<vwCustomer first_name="DENNIS" last_name="GILMAN" email="DENNIS.GILMAN@sakilacustomer.org" city="Paarl" country="South Africa" />
+<vwCustomer first_name="WALTER" last_name="PERRYMAN" email="WALTER.PERRYMAN@sakilacustomer.org" city="Xinxiang" country="China" />
+<vwCustomer first_name="PATRICK" last_name="NEWSOM" email="PATRICK.NEWSOM@sakilacustomer.org" city="Hanoi" country="Vietnam" />
+<vwCustomer first_name="PETER" last_name="MENARD" email="PETER.MENARD@sakilacustomer.org" city="Ede" country="Netherlands" />
+<vwCustomer first_name="HAROLD" last_name="MARTINO" email="HAROLD.MARTINO@sakilacustomer.org" city="Boa Vista" country="Brazil" />
+<vwCustomer first_name="DOUGLAS" last_name="GRAF" email="DOUGLAS.GRAF@sakilacustomer.org" city="Mexicali" country="Mexico" />
+<vwCustomer first_name="HENRY" last_name="BILLINGSLEY" email="HENRY.BILLINGSLEY@sakilacustomer.org" city="Nukualofa" country="Tonga" />
+<vwCustomer first_name="CARL" last_name="ARTIS" email="CARL.ARTIS@sakilacustomer.org" city="San Lorenzo" country="Paraguay" />
+<vwCustomer first_name="ARTHUR" last_name="SIMPKINS" email="ARTHUR.SIMPKINS@sakilacustomer.org" city="Maikop" country="Russian Federation" />
+<vwCustomer first_name="RYAN" last_name="SALISBURY" email="RYAN.SALISBURY@sakilacustomer.org" city="Daugavpils" country="Latvia" />
+<vwCustomer first_name="ROGER" last_name="QUINTANILLA" email="ROGER.QUINTANILLA@sakilacustomer.org" city="Hsichuh" country="Taiwan" />
+<vwCustomer first_name="JOE" last_name="GILLILAND" email="JOE.GILLILAND@sakilacustomer.org" city="Imus" country="Philippines" />
+<vwCustomer first_name="JUAN" last_name="FRALEY" email="JUAN.FRALEY@sakilacustomer.org" city="Teboksary" country="Russian Federation" />
+<vwCustomer first_name="JACK" last_name="FOUST" email="JACK.FOUST@sakilacustomer.org" city="Zeleznogorsk" country="Russian Federation" />
+<vwCustomer first_name="ALBERT" last_name="CROUSE" email="ALBERT.CROUSE@sakilacustomer.org" city="Bamenda" country="Cameroon" />
+<vwCustomer first_name="JONATHAN" last_name="SCARBOROUGH" email="JONATHAN.SCARBOROUGH@sakilacustomer.org" city="Pachuca de Soto" country="Mexico" />
+<vwCustomer first_name="JUSTIN" last_name="NGO" email="JUSTIN.NGO@sakilacustomer.org" city="Santo Andr" country="Brazil" />
+<vwCustomer first_name="TERRY" last_name="GRISSOM" email="TERRY.GRISSOM@sakilacustomer.org" city="Matsue" country="Japan" />
+<vwCustomer first_name="GERALD" last_name="FULTZ" email="GERALD.FULTZ@sakilacustomer.org" city="Satna" country="India" />
+<vwCustomer first_name="KEITH" last_name="RICO" email="KEITH.RICO@sakilacustomer.org" city="Bratislava" country="Slovakia" />
+<vwCustomer first_name="SAMUEL" last_name="MARLOW" email="SAMUEL.MARLOW@sakilacustomer.org" city="Ranchi" country="India" />
+<vwCustomer first_name="WILLIE" last_name="MARKHAM" email="WILLIE.MARKHAM@sakilacustomer.org" city="Almirante Brown" country="Argentina" />
+<vwCustomer first_name="RALPH" last_name="MADRIGAL" email="RALPH.MADRIGAL@sakilacustomer.org" city="Arecibo" country="Puerto Rico" />
+<vwCustomer first_name="LAWRENCE" last_name="LAWTON" email="LAWRENCE.LAWTON@sakilacustomer.org" city="Yaound" country="Cameroon" />
+<vwCustomer first_name="NICHOLAS" last_name="BARFIELD" email="NICHOLAS.BARFIELD@sakilacustomer.org" city="Belm" country="Brazil" />
+<vwCustomer first_name="ROY" last_name="WHITING" email="ROY.WHITING@sakilacustomer.org" city="Nyeri" country="Kenya" />
+<vwCustomer first_name="BENJAMIN" last_name="VARNEY" email="BENJAMIN.VARNEY@sakilacustomer.org" city="Guadalajara" country="Mexico" />
+<vwCustomer first_name="BRUCE" last_name="SCHWARZ" email="BRUCE.SCHWARZ@sakilacustomer.org" city="Okinawa" country="Japan" />
+<vwCustomer first_name="BRANDON" last_name="HUEY" email="BRANDON.HUEY@sakilacustomer.org" city="Balikesir" country="Turkey" />
+<vwCustomer first_name="ADAM" last_name="GOOCH" email="ADAM.GOOCH@sakilacustomer.org" city="Adoni" country="India" />
+<vwCustomer first_name="HARRY" last_name="ARCE" email="HARRY.ARCE@sakilacustomer.org" city="Najafabad" country="Iran" />
+<vwCustomer first_name="FRED" last_name="WHEAT" email="FRED.WHEAT@sakilacustomer.org" city="Jurez" country="Mexico" />
+<vwCustomer first_name="WAYNE" last_name="TRUONG" email="WAYNE.TRUONG@sakilacustomer.org" city="Gulbarga" country="India" />
+<vwCustomer first_name="BILLY" last_name="POULIN" email="BILLY.POULIN@sakilacustomer.org" city="Cabuyao" country="Philippines" />
+<vwCustomer first_name="STEVE" last_name="MACKENZIE" email="STEVE.MACKENZIE@sakilacustomer.org" city="Probolinggo" country="Indonesia" />
+<vwCustomer first_name="LOUIS" last_name="LEONE" email="LOUIS.LEONE@sakilacustomer.org" city="Tanauan" country="Philippines" />
+<vwCustomer first_name="JEREMY" last_name="HURTADO" email="JEREMY.HURTADO@sakilacustomer.org" city="Vitria de Santo Anto" country="Brazil" />
+<vwCustomer first_name="AARON" last_name="SELBY" email="AARON.SELBY@sakilacustomer.org" city="Mwene-Ditu" country="Congo, The Democratic Republic of the" />
+<vwCustomer first_name="RANDY" last_name="GAITHER" email="RANDY.GAITHER@sakilacustomer.org" city="Kurgan" country="Russian Federation" />
+<vwCustomer first_name="HOWARD" last_name="FORTNER" email="HOWARD.FORTNER@sakilacustomer.org" city="Kermanshah" country="Iran" />
+<vwCustomer first_name="EUGENE" last_name="CULPEPPER" email="EUGENE.CULPEPPER@sakilacustomer.org" city="Shenzhen" country="China" />
+<vwCustomer first_name="CARLOS" last_name="COUGHLIN" email="CARLOS.COUGHLIN@sakilacustomer.org" city="Bhavnagar" country="India" />
+<vwCustomer first_name="RUSSELL" last_name="BRINSON" email="RUSSELL.BRINSON@sakilacustomer.org" city="Tychy" country="Poland" />
+<vwCustomer first_name="BOBBY" last_name="BOUDREAU" email="BOBBY.BOUDREAU@sakilacustomer.org" city="South Hill" country="Anguilla" />
+<vwCustomer first_name="VICTOR" last_name="BARKLEY" email="VICTOR.BARKLEY@sakilacustomer.org" city="Manchester" country="United States" />
+<vwCustomer first_name="MARTIN" last_name="BALES" email="MARTIN.BALES@sakilacustomer.org" city="Namibe" country="Angola" />
+<vwCustomer first_name="ERNEST" last_name="STEPP" email="ERNEST.STEPP@sakilacustomer.org" city="Huaian" country="China" />
+<vwCustomer first_name="PHILLIP" last_name="HOLM" email="PHILLIP.HOLM@sakilacustomer.org" city="Tama" country="Japan" />
+<vwCustomer first_name="TODD" last_name="TAN" email="TODD.TAN@sakilacustomer.org" city="Kamjanets-Podilskyi" country="Ukraine" />
+<vwCustomer first_name="JESSE" last_name="SCHILLING" email="JESSE.SCHILLING@sakilacustomer.org" city="Lubumbashi" country="Congo, The Democratic Republic of the" />
+<vwCustomer first_name="CRAIG" last_name="MORRELL" email="CRAIG.MORRELL@sakilacustomer.org" city="Cavite" country="Philippines" />
+<vwCustomer first_name="ALAN" last_name="KAHN" email="ALAN.KAHN@sakilacustomer.org" city="Emeishan" country="China" />
+<vwCustomer first_name="SHAWN" last_name="HEATON" email="SHAWN.HEATON@sakilacustomer.org" city="Nakhon Sawan" country="Thailand" />
+<vwCustomer first_name="CLARENCE" last_name="GAMEZ" email="CLARENCE.GAMEZ@sakilacustomer.org" city="Izumisano" country="Japan" />
+<vwCustomer first_name="SEAN" last_name="DOUGLASS" email="SEAN.DOUGLASS@sakilacustomer.org" city="Addis Abeba" country="Ethiopia" />
+<vwCustomer first_name="PHILIP" last_name="CAUSEY" email="PHILIP.CAUSEY@sakilacustomer.org" city="Korolev" country="Russian Federation" />
+<vwCustomer first_name="CHRIS" last_name="BROTHERS" email="CHRIS.BROTHERS@sakilacustomer.org" city="Gijn" country="Spain" />
+<vwCustomer first_name="JOHNNY" last_name="TURPIN" email="JOHNNY.TURPIN@sakilacustomer.org" city="al-Qadarif" country="Sudan" />
+<vwCustomer first_name="EARL" last_name="SHANKS" email="EARL.SHANKS@sakilacustomer.org" city="Iwatsuki" country="Japan" />
+<vwCustomer first_name="JIMMY" last_name="SCHRADER" email="JIMMY.SCHRADER@sakilacustomer.org" city="Atinsk" country="Russian Federation" />
+<vwCustomer first_name="ANTONIO" last_name="MEEK" email="ANTONIO.MEEK@sakilacustomer.org" city="Bag" country="Brazil" />
+<vwCustomer first_name="DANNY" last_name="ISOM" email="DANNY.ISOM@sakilacustomer.org" city="Okara" country="Pakistan" />
+<vwCustomer first_name="BRYAN" last_name="HARDISON" email="BRYAN.HARDISON@sakilacustomer.org" city="Dallas" country="United States" />
+<vwCustomer first_name="TONY" last_name="CARRANZA" email="TONY.CARRANZA@sakilacustomer.org" city="Koriyama" country="Japan" />
+<vwCustomer first_name="LUIS" last_name="YANEZ" email="LUIS.YANEZ@sakilacustomer.org" city="Brest" country="France" />
+<vwCustomer first_name="MIKE" last_name="WAY" email="MIKE.WAY@sakilacustomer.org" city="Valparai" country="India" />
+<vwCustomer first_name="STANLEY" last_name="SCROGGINS" email="STANLEY.SCROGGINS@sakilacustomer.org" city="Omiya" country="Japan" />
+<vwCustomer first_name="LEONARD" last_name="SCHOFIELD" email="LEONARD.SCHOFIELD@sakilacustomer.org" city="Tandil" country="Argentina" />
+<vwCustomer first_name="NATHAN" last_name="RUNYON" email="NATHAN.RUNYON@sakilacustomer.org" city="Charlotte Amalie" country="Virgin Islands, U.S." />
+<vwCustomer first_name="DALE" last_name="RATCLIFF" email="DALE.RATCLIFF@sakilacustomer.org" city="Rustenburg" country="South Africa" />
+<vwCustomer first_name="MANUEL" last_name="MURRELL" email="MANUEL.MURRELL@sakilacustomer.org" city="Jaffna" country="Sri Lanka" />
+<vwCustomer first_name="RODNEY" last_name="MOELLER" email="RODNEY.MOELLER@sakilacustomer.org" city="Deba Habe" country="Nigeria" />
+<vwCustomer first_name="CURTIS" last_name="IRBY" email="CURTIS.IRBY@sakilacustomer.org" city="Richmond Hill" country="Canada" />
+<vwCustomer first_name="NORMAN" last_name="CURRIER" email="NORMAN.CURRIER@sakilacustomer.org" city="Cianjur" country="Indonesia" />
+<vwCustomer first_name="ALLEN" last_name="BUTTERFIELD" email="ALLEN.BUTTERFIELD@sakilacustomer.org" city="Hoshiarpur" country="India" />
+<vwCustomer first_name="MARVIN" last_name="YEE" email="MARVIN.YEE@sakilacustomer.org" city="Berhampore (Baharampur)" country="India" />
+<vwCustomer first_name="VINCENT" last_name="RALSTON" email="VINCENT.RALSTON@sakilacustomer.org" city="Allende" country="Mexico" />
+<vwCustomer first_name="GLENN" last_name="PULLEN" email="GLENN.PULLEN@sakilacustomer.org" city="Amersfoort" country="Netherlands" />
+<vwCustomer first_name="JEFFERY" last_name="PINSON" email="JEFFERY.PINSON@sakilacustomer.org" city="Dadu" country="Pakistan" />
+<vwCustomer first_name="TRAVIS" last_name="ESTEP" email="TRAVIS.ESTEP@sakilacustomer.org" city="al-Qatif" country="Saudi Arabia" />
+<vwCustomer first_name="JEFF" last_name="EAST" email="JEFF.EAST@sakilacustomer.org" city="San Felipe de Puerto Plata" country="Dominican Republic" />
+<vwCustomer first_name="CHAD" last_name="CARBONE" email="CHAD.CARBONE@sakilacustomer.org" city="Katihar" country="India" />
+<vwCustomer first_name="JACOB" last_name="LANCE" email="JACOB.LANCE@sakilacustomer.org" city="El Monte" country="United States" />
+<vwCustomer first_name="LEE" last_name="HAWKS" email="LEE.HAWKS@sakilacustomer.org" city="Pudukkottai" country="India" />
+<vwCustomer first_name="MELVIN" last_name="ELLINGTON" email="MELVIN.ELLINGTON@sakilacustomer.org" city="Laohekou" country="China" />
+<vwCustomer first_name="ALFRED" last_name="CASILLAS" email="ALFRED.CASILLAS@sakilacustomer.org" city="Sawhaj" country="Egypt" />
+<vwCustomer first_name="KYLE" last_name="SPURLOCK" email="KYLE.SPURLOCK@sakilacustomer.org" city="Shanwei" country="China" />
+<vwCustomer first_name="FRANCIS" last_name="SIKES" email="FRANCIS.SIKES@sakilacustomer.org" city="San Juan Bautista Tuxtepec" country="Mexico" />
+<vwCustomer first_name="BRADLEY" last_name="MOTLEY" email="BRADLEY.MOTLEY@sakilacustomer.org" city="Purnea (Purnia)" country="India" />
+<vwCustomer first_name="JESUS" last_name="MCCARTNEY" email="JESUS.MCCARTNEY@sakilacustomer.org" city="Guaruj" country="Brazil" />
+<vwCustomer first_name="HERBERT" last_name="KRUGER" email="HERBERT.KRUGER@sakilacustomer.org" city="Syktyvkar" country="Russian Federation" />
+<vwCustomer first_name="FREDERICK" last_name="ISBELL" email="FREDERICK.ISBELL@sakilacustomer.org" city="Tsuyama" country="Japan" />
+<vwCustomer first_name="RAY" last_name="HOULE" email="RAY.HOULE@sakilacustomer.org" city="Dzerzinsk" country="Russian Federation" />
+<vwCustomer first_name="JOEL" last_name="FRANCISCO" email="JOEL.FRANCISCO@sakilacustomer.org" city="Sucre" country="Bolivia" />
+<vwCustomer first_name="EDWIN" last_name="BURK" email="EDWIN.BURK@sakilacustomer.org" city="Newcastle" country="South Africa" />
+<vwCustomer first_name="DON" last_name="BONE" email="DON.BONE@sakilacustomer.org" city="Naala-Porto" country="Mozambique" />
+<vwCustomer first_name="EDDIE" last_name="TOMLIN" email="EDDIE.TOMLIN@sakilacustomer.org" city="Ozamis" country="Philippines" />
+<vwCustomer first_name="RICKY" last_name="SHELBY" email="RICKY.SHELBY@sakilacustomer.org" city="Junan" country="China" />
+<vwCustomer first_name="TROY" last_name="QUIGLEY" email="TROY.QUIGLEY@sakilacustomer.org" city="Vancouver" country="Canada" />
+<vwCustomer first_name="RANDALL" last_name="NEUMANN" email="RANDALL.NEUMANN@sakilacustomer.org" city="La Romana" country="Dominican Republic" />
+<vwCustomer first_name="BARRY" last_name="LOVELACE" email="BARRY.LOVELACE@sakilacustomer.org" city="Kitwe" country="Zambia" />
+<vwCustomer first_name="ALEXANDER" last_name="FENNELL" email="ALEXANDER.FENNELL@sakilacustomer.org" city="Bergamo" country="Italy" />
+<vwCustomer first_name="BERNARD" last_name="COLBY" email="BERNARD.COLBY@sakilacustomer.org" city="Dhule (Dhulia)" country="India" />
+<vwCustomer first_name="MARIO" last_name="CHEATHAM" email="MARIO.CHEATHAM@sakilacustomer.org" city="Batna" country="Algeria" />
+<vwCustomer first_name="LEROY" last_name="BUSTAMANTE" email="LEROY.BUSTAMANTE@sakilacustomer.org" city="Tongliao" country="China" />
+<vwCustomer first_name="FRANCISCO" last_name="SKIDMORE" email="FRANCISCO.SKIDMORE@sakilacustomer.org" city="So Leopoldo" country="Brazil" />
+<vwCustomer first_name="MARCUS" last_name="HIDALGO" email="MARCUS.HIDALGO@sakilacustomer.org" city="Tartu" country="Estonia" />
+<vwCustomer first_name="MICHEAL" last_name="FORMAN" email="MICHEAL.FORMAN@sakilacustomer.org" city="Escobar" country="Argentina" />
+<vwCustomer first_name="THEODORE" last_name="CULP" email="THEODORE.CULP@sakilacustomer.org" city="Uluberia" country="India" />
+<vwCustomer first_name="CLIFFORD" last_name="BOWENS" email="CLIFFORD.BOWENS@sakilacustomer.org" city="Nabereznyje Telny" country="Russian Federation" />
+<vwCustomer first_name="MIGUEL" last_name="BETANCOURT" email="MIGUEL.BETANCOURT@sakilacustomer.org" city="Erlangen" country="Germany" />
+<vwCustomer first_name="OSCAR" last_name="AQUINO" email="OSCAR.AQUINO@sakilacustomer.org" city="Sirjan" country="Iran" />
+<vwCustomer first_name="JAY" last_name="ROBB" email="JAY.ROBB@sakilacustomer.org" city="Surakarta" country="Indonesia" />
+<vwCustomer first_name="JIM" last_name="REA" email="JIM.REA@sakilacustomer.org" city="El Fuerte" country="Mexico" />
+<vwCustomer first_name="TOM" last_name="MILNER" email="TOM.MILNER@sakilacustomer.org" city="Abu Dhabi" country="United Arab Emirates" />
+<vwCustomer first_name="CALVIN" last_name="MARTEL" email="CALVIN.MARTEL@sakilacustomer.org" city="Maracabo" country="Venezuela" />
+<vwCustomer first_name="ALEX" last_name="GRESHAM" email="ALEX.GRESHAM@sakilacustomer.org" city="Uruapan" country="Mexico" />
+<vwCustomer first_name="JON" last_name="WILES" email="JON.WILES@sakilacustomer.org" city="El Alto" country="Bolivia" />
+<vwCustomer first_name="RONNIE" last_name="RICKETTS" email="RONNIE.RICKETTS@sakilacustomer.org" city="Ziguinchor" country="Senegal" />
+<vwCustomer first_name="BILL" last_name="GAVIN" email="BILL.GAVIN@sakilacustomer.org" city="Rockford" country="United States" />
+<vwCustomer first_name="LLOYD" last_name="DOWD" email="LLOYD.DOWD@sakilacustomer.org" city="Tegal" country="Indonesia" />
+<vwCustomer first_name="TOMMY" last_name="COLLAZO" email="TOMMY.COLLAZO@sakilacustomer.org" city="Qomsheh" country="Iran" />
+<vwCustomer first_name="LEON" last_name="BOSTIC" email="LEON.BOSTIC@sakilacustomer.org" city="Florencia" country="Colombia" />
+<vwCustomer first_name="DEREK" last_name="BLAKELY" email="DEREK.BLAKELY@sakilacustomer.org" city="Gingoog" country="Philippines" />
+<vwCustomer first_name="WARREN" last_name="SHERROD" email="WARREN.SHERROD@sakilacustomer.org" city="Usolje-Sibirskoje" country="Russian Federation" />
+<vwCustomer first_name="DARRELL" last_name="POWER" email="DARRELL.POWER@sakilacustomer.org" city="Halifax" country="Canada" />
+<vwCustomer first_name="JEROME" last_name="KENYON" email="JEROME.KENYON@sakilacustomer.org" city="Rancagua" country="Chile" />
+<vwCustomer first_name="FLOYD" last_name="GANDY" email="FLOYD.GANDY@sakilacustomer.org" city="Zapopan" country="Mexico" />
+<vwCustomer first_name="LEO" last_name="EBERT" email="LEO.EBERT@sakilacustomer.org" city="Dongying" country="China" />
+<vwCustomer first_name="ALVIN" last_name="DELOACH" email="ALVIN.DELOACH@sakilacustomer.org" city="Cuauhtmoc" country="Mexico" />
+<vwCustomer first_name="TIM" last_name="CARY" email="TIM.CARY@sakilacustomer.org" city="Bijapur" country="India" />
+<vwCustomer first_name="WESLEY" last_name="BULL" email="WESLEY.BULL@sakilacustomer.org" city="Ourense (Orense)" country="Spain" />
+<vwCustomer first_name="GORDON" last_name="ALLARD" email="GORDON.ALLARD@sakilacustomer.org" city="Hodeida" country="Yemen" />
+<vwCustomer first_name="DEAN" last_name="SAUER" email="DEAN.SAUER@sakilacustomer.org" city="Johannesburg" country="South Africa" />
+<vwCustomer first_name="GREG" last_name="ROBINS" email="GREG.ROBINS@sakilacustomer.org" city="Nam Dinh" country="Vietnam" />
+<vwCustomer first_name="JORGE" last_name="OLIVARES" email="JORGE.OLIVARES@sakilacustomer.org" city="Lhokseumawe" country="Indonesia" />
+<vwCustomer first_name="DUSTIN" last_name="GILLETTE" email="DUSTIN.GILLETTE@sakilacustomer.org" city="Emmen" country="Netherlands" />
+<vwCustomer first_name="PEDRO" last_name="CHESTNUT" email="PEDRO.CHESTNUT@sakilacustomer.org" city="ostka" country="Ukraine" />
+<vwCustomer first_name="DERRICK" last_name="BOURQUE" email="DERRICK.BOURQUE@sakilacustomer.org" city="Gatineau" country="Canada" />
+<vwCustomer first_name="DAN" last_name="PAINE" email="DAN.PAINE@sakilacustomer.org" city="Stockport" country="United Kingdom" />
+<vwCustomer first_name="LEWIS" last_name="LYMAN" email="LEWIS.LYMAN@sakilacustomer.org" city="Ashqelon" country="Israel" />
+<vwCustomer first_name="ZACHARY" last_name="HITE" email="ZACHARY.HITE@sakilacustomer.org" city="Akron" country="United States" />
+<vwCustomer first_name="COREY" last_name="HAUSER" email="COREY.HAUSER@sakilacustomer.org" city="Gaziantep" country="Turkey" />
+<vwCustomer first_name="HERMAN" last_name="DEVORE" email="HERMAN.DEVORE@sakilacustomer.org" city="Mwanza" country="Tanzania" />
+<vwCustomer first_name="MAURICE" last_name="CRAWLEY" email="MAURICE.CRAWLEY@sakilacustomer.org" city="Coatzacoalcos" country="Mexico" />
+<vwCustomer first_name="VERNON" last_name="CHAPA" email="VERNON.CHAPA@sakilacustomer.org" city="Denizli" country="Turkey" />
+<vwCustomer first_name="ROBERTO" last_name="VU" email="ROBERTO.VU@sakilacustomer.org" city="Yinchuan" country="China" />
+<vwCustomer first_name="CLYDE" last_name="TOBIAS" email="CLYDE.TOBIAS@sakilacustomer.org" city="Shaoguan" country="China" />
+<vwCustomer first_name="GLEN" last_name="TALBERT" email="GLEN.TALBERT@sakilacustomer.org" city="Acua" country="Mexico" />
+<vwCustomer first_name="HECTOR" last_name="POINDEXTER" email="HECTOR.POINDEXTER@sakilacustomer.org" city="Pjatigorsk" country="Russian Federation" />
+<vwCustomer first_name="SHANE" last_name="MILLARD" email="SHANE.MILLARD@sakilacustomer.org" city="La Paz" country="Mexico" />
+<vwCustomer first_name="RICARDO" last_name="MEADOR" email="RICARDO.MEADOR@sakilacustomer.org" city="Okayama" country="Japan" />
+<vwCustomer first_name="SAM" last_name="MCDUFFIE" email="SAM.MCDUFFIE@sakilacustomer.org" city="Sogamoso" country="Colombia" />
+<vwCustomer first_name="RICK" last_name="MATTOX" email="RICK.MATTOX@sakilacustomer.org" city="Mit Ghamr" country="Egypt" />
+<vwCustomer first_name="LESTER" last_name="KRAUS" email="LESTER.KRAUS@sakilacustomer.org" city="Kanchrapara" country="India" />
+<vwCustomer first_name="BRENT" last_name="HARKINS" email="BRENT.HARKINS@sakilacustomer.org" city="Sultanbeyli" country="Turkey" />
+<vwCustomer first_name="RAMON" last_name="CHOATE" email="RAMON.CHOATE@sakilacustomer.org" city="Robamba" country="Ecuador" />
+<vwCustomer first_name="CHARLIE" last_name="BESS" email="CHARLIE.BESS@sakilacustomer.org" city="Baiyin" country="China" />
+<vwCustomer first_name="TYLER" last_name="WREN" email="TYLER.WREN@sakilacustomer.org" city="Rizhao" country="China" />
+<vwCustomer first_name="GILBERT" last_name="SLEDGE" email="GILBERT.SLEDGE@sakilacustomer.org" city="York" country="United Kingdom" />
+<vwCustomer first_name="GENE" last_name="SANBORN" email="GENE.SANBORN@sakilacustomer.org" city="Salala" country="Oman" />
+<vwCustomer first_name="MARC" last_name="OUTLAW" email="MARC.OUTLAW@sakilacustomer.org" city="Brindisi" country="Italy" />
+<vwCustomer first_name="REGINALD" last_name="KINDER" email="REGINALD.KINDER@sakilacustomer.org" city="Madiun" country="Indonesia" />
+<vwCustomer first_name="RUBEN" last_name="GEARY" email="RUBEN.GEARY@sakilacustomer.org" city="Lublin" country="Poland" />
+<vwCustomer first_name="BRETT" last_name="CORNWELL" email="BRETT.CORNWELL@sakilacustomer.org" city="Siliguri (Shiliguri)" country="India" />
+<vwCustomer first_name="ANGEL" last_name="BARCLAY" email="ANGEL.BARCLAY@sakilacustomer.org" city="Ueda" country="Japan" />
+<vwCustomer first_name="NATHANIEL" last_name="ADAM" email="NATHANIEL.ADAM@sakilacustomer.org" city="Joliet" country="United States" />
+<vwCustomer first_name="RAFAEL" last_name="ABNEY" email="RAFAEL.ABNEY@sakilacustomer.org" city="Talavera" country="Philippines" />
+<vwCustomer first_name="LESLIE" last_name="SEWARD" email="LESLIE.SEWARD@sakilacustomer.org" city="Pontianak" country="Indonesia" />
+<vwCustomer first_name="EDGAR" last_name="RHOADS" email="EDGAR.RHOADS@sakilacustomer.org" city="Eskisehir" country="Turkey" />
+<vwCustomer first_name="MILTON" last_name="HOWLAND" email="MILTON.HOWLAND@sakilacustomer.org" city="Vijayawada" country="India" />
+<vwCustomer first_name="RAUL" last_name="FORTIER" email="RAUL.FORTIER@sakilacustomer.org" city="Chapra" country="India" />
+<vwCustomer first_name="BEN" last_name="EASTER" email="BEN.EASTER@sakilacustomer.org" city="Kamyin" country="Russian Federation" />
+<vwCustomer first_name="CHESTER" last_name="BENNER" email="CHESTER.BENNER@sakilacustomer.org" city="Suihua" country="China" />
+<vwCustomer first_name="CECIL" last_name="VINES" email="CECIL.VINES@sakilacustomer.org" city="London" country="United Kingdom" />
+<vwCustomer first_name="DUANE" last_name="TUBBS" email="DUANE.TUBBS@sakilacustomer.org" city="Yangor" country="Nauru" />
+<vwCustomer first_name="FRANKLIN" last_name="TROUTMAN" email="FRANKLIN.TROUTMAN@sakilacustomer.org" city="Zaoyang" country="China" />
+<vwCustomer first_name="ANDRE" last_name="RAPP" email="ANDRE.RAPP@sakilacustomer.org" city="Coquimbo" country="Chile" />
+<vwCustomer first_name="ELMER" last_name="NOE" email="ELMER.NOE@sakilacustomer.org" city="Battambang" country="Cambodia" />
+<vwCustomer first_name="BRAD" last_name="MCCURDY" email="BRAD.MCCURDY@sakilacustomer.org" city="Chungho" country="Taiwan" />
+<vwCustomer first_name="GABRIEL" last_name="HARDER" email="GABRIEL.HARDER@sakilacustomer.org" city="Sivas" country="Turkey" />
+<vwCustomer first_name="RON" last_name="DELUCA" email="RON.DELUCA@sakilacustomer.org" city="Isesaki" country="Japan" />
+<vwCustomer first_name="MITCHELL" last_name="WESTMORELAND" email="MITCHELL.WESTMORELAND@sakilacustomer.org" city="Nha Trang" country="Vietnam" />
+<vwCustomer first_name="ROLAND" last_name="SOUTH" email="ROLAND.SOUTH@sakilacustomer.org" city="Yingkou" country="China" />
+<vwCustomer first_name="ARNOLD" last_name="HAVENS" email="ARNOLD.HAVENS@sakilacustomer.org" city="Santa Rosa" country="Philippines" />
+<vwCustomer first_name="HARVEY" last_name="GUAJARDO" email="HARVEY.GUAJARDO@sakilacustomer.org" city="Vinh" country="Vietnam" />
+<vwCustomer first_name="JARED" last_name="ELY" email="JARED.ELY@sakilacustomer.org" city="Purwakarta" country="Indonesia" />
+<vwCustomer first_name="ADRIAN" last_name="CLARY" email="ADRIAN.CLARY@sakilacustomer.org" city="Udine" country="Italy" />
+<vwCustomer first_name="KARL" last_name="SEAL" email="KARL.SEAL@sakilacustomer.org" city="Cape Coral" country="United States" />
+<vwCustomer first_name="CORY" last_name="MEEHAN" email="CORY.MEEHAN@sakilacustomer.org" city="Mogiljov" country="Belarus" />
+<vwCustomer first_name="CLAUDE" last_name="HERZOG" email="CLAUDE.HERZOG@sakilacustomer.org" city="Benguela" country="Angola" />
+<vwCustomer first_name="ERIK" last_name="GUILLEN" email="ERIK.GUILLEN@sakilacustomer.org" city="Bhimavaram" country="India" />
+<vwCustomer first_name="DARRYL" last_name="ASHCRAFT" email="DARRYL.ASHCRAFT@sakilacustomer.org" city="Ezeiza" country="Argentina" />
+<vwCustomer first_name="JAMIE" last_name="WAUGH" email="JAMIE.WAUGH@sakilacustomer.org" city="Kuwana" country="Japan" />
+<vwCustomer first_name="NEIL" last_name="RENNER" email="NEIL.RENNER@sakilacustomer.org" city="Cam Ranh" country="Vietnam" />
+<vwCustomer first_name="JESSIE" last_name="MILAM" email="JESSIE.MILAM@sakilacustomer.org" city="Binzhou" country="China" />
+<vwCustomer first_name="CHRISTIAN" last_name="JUNG" email="CHRISTIAN.JUNG@sakilacustomer.org" city="Amroha" country="India" />
+<vwCustomer first_name="JAVIER" last_name="ELROD" email="JAVIER.ELROD@sakilacustomer.org" city="NDjamna" country="Chad" />
+<vwCustomer first_name="FERNANDO" last_name="CHURCHILL" email="FERNANDO.CHURCHILL@sakilacustomer.org" city="Tonghae" country="South Korea" />
+<vwCustomer first_name="CLINTON" last_name="BUFORD" email="CLINTON.BUFORD@sakilacustomer.org" city="Aurora" country="United States" />
+<vwCustomer first_name="TED" last_name="BREAUX" email="TED.BREAUX@sakilacustomer.org" city="Baicheng" country="China" />
+<vwCustomer first_name="MATHEW" last_name="BOLIN" email="MATHEW.BOLIN@sakilacustomer.org" city="Valencia" country="Venezuela" />
+<vwCustomer first_name="TYRONE" last_name="ASHER" email="TYRONE.ASHER@sakilacustomer.org" city="Ruse" country="Bulgaria" />
+<vwCustomer first_name="DARREN" last_name="WINDHAM" email="DARREN.WINDHAM@sakilacustomer.org" city="Livorno" country="Italy" />
+<vwCustomer first_name="LONNIE" last_name="TIRADO" email="LONNIE.TIRADO@sakilacustomer.org" city="Pangkal Pinang" country="Indonesia" />
+<vwCustomer first_name="LANCE" last_name="PEMBERTON" email="LANCE.PEMBERTON@sakilacustomer.org" city="Beni-Mellal" country="Morocco" />
+<vwCustomer first_name="CODY" last_name="NOLEN" email="CODY.NOLEN@sakilacustomer.org" city="So Bernardo do Campo" country="Brazil" />
+<vwCustomer first_name="JULIO" last_name="NOLAND" email="JULIO.NOLAND@sakilacustomer.org" city="Konotop" country="Ukraine" />
+<vwCustomer first_name="KELLY" last_name="KNOTT" email="KELLY.KNOTT@sakilacustomer.org" city="Sanya" country="China" />
+<vwCustomer first_name="KURT" last_name="EMMONS" email="KURT.EMMONS@sakilacustomer.org" city="Kanazawa" country="Japan" />
+<vwCustomer first_name="ALLAN" last_name="CORNISH" email="ALLAN.CORNISH@sakilacustomer.org" city="Tarlac" country="Philippines" />
+<vwCustomer first_name="NELSON" last_name="CHRISTENSON" email="NELSON.CHRISTENSON@sakilacustomer.org" city="Santiago de Compostela" country="Spain" />
+<vwCustomer first_name="GUY" last_name="BROWNLEE" email="GUY.BROWNLEE@sakilacustomer.org" city="Zhoushan" country="China" />
+<vwCustomer first_name="CLAYTON" last_name="BARBEE" email="CLAYTON.BARBEE@sakilacustomer.org" city="Alvorada" country="Brazil" />
+<vwCustomer first_name="HUGH" last_name="WALDROP" email="HUGH.WALDROP@sakilacustomer.org" city="Haining" country="China" />
+<vwCustomer first_name="MAX" last_name="PITT" email="MAX.PITT@sakilacustomer.org" city="Novi Sad" country="Yugoslavia" />
+<vwCustomer first_name="DWAYNE" last_name="OLVERA" email="DWAYNE.OLVERA@sakilacustomer.org" city="Rajkot" country="India" />
+<vwCustomer first_name="DWIGHT" last_name="LOMBARDI" email="DWIGHT.LOMBARDI@sakilacustomer.org" city="Chatsworth" country="South Africa" />
+<vwCustomer first_name="ARMANDO" last_name="GRUBER" email="ARMANDO.GRUBER@sakilacustomer.org" city="Southport" country="United Kingdom" />
+<vwCustomer first_name="FELIX" last_name="GAFFNEY" email="FELIX.GAFFNEY@sakilacustomer.org" city="Vilnius" country="Lithuania" />
+<vwCustomer first_name="JIMMIE" last_name="EGGLESTON" email="JIMMIE.EGGLESTON@sakilacustomer.org" city="Wroclaw" country="Poland" />
+<vwCustomer first_name="EVERETT" last_name="BANDA" email="EVERETT.BANDA@sakilacustomer.org" city="Bilbays" country="Egypt" />
+<vwCustomer first_name="JORDAN" last_name="ARCHULETA" email="JORDAN.ARCHULETA@sakilacustomer.org" city="Avellaneda" country="Argentina" />
+<vwCustomer first_name="IAN" last_name="STILL" email="IAN.STILL@sakilacustomer.org" city="Garland" country="United States" />
+<vwCustomer first_name="WALLACE" last_name="SLONE" email="WALLACE.SLONE@sakilacustomer.org" city="Sokoto" country="Nigeria" />
+<vwCustomer first_name="KEN" last_name="PREWITT" email="KEN.PREWITT@sakilacustomer.org" city="Bucuresti" country="Romania" />
+<vwCustomer first_name="BOB" last_name="PFEIFFER" email="BOB.PFEIFFER@sakilacustomer.org" city="Xintai" country="China" />
+<vwCustomer first_name="JAIME" last_name="NETTLES" email="JAIME.NETTLES@sakilacustomer.org" city="Hunuco" country="Peru" />
+<vwCustomer first_name="CASEY" last_name="MENA" email="CASEY.MENA@sakilacustomer.org" city="Tokat" country="Turkey" />
+<vwCustomer first_name="ALFREDO" last_name="MCADAMS" email="ALFREDO.MCADAMS@sakilacustomer.org" city="Serpuhov" country="Russian Federation" />
+<vwCustomer first_name="ALBERTO" last_name="HENNING" email="ALBERTO.HENNING@sakilacustomer.org" city="Barcelona" country="Venezuela" />
+<vwCustomer first_name="DAVE" last_name="GARDINER" email="DAVE.GARDINER@sakilacustomer.org" city="Leshan" country="China" />
+<vwCustomer first_name="IVAN" last_name="CROMWELL" email="IVAN.CROMWELL@sakilacustomer.org" city="Monclova" country="Mexico" />
+<vwCustomer first_name="JOHNNIE" last_name="CHISHOLM" email="JOHNNIE.CHISHOLM@sakilacustomer.org" city="Plock" country="Poland" />
+<vwCustomer first_name="SIDNEY" last_name="BURLESON" email="SIDNEY.BURLESON@sakilacustomer.org" city="Czestochowa" country="Poland" />
+<vwCustomer first_name="BYRON" last_name="BOX" email="BYRON.BOX@sakilacustomer.org" city="Zhezqazghan" country="Kazakstan" />
+<vwCustomer first_name="JULIAN" last_name="VEST" email="JULIAN.VEST@sakilacustomer.org" city="Akishima" country="Japan" />
+<vwCustomer first_name="ISAAC" last_name="OGLESBY" email="ISAAC.OGLESBY@sakilacustomer.org" city="Cuernavaca" country="Mexico" />
+<vwCustomer first_name="MORRIS" last_name="MCCARTER" email="MORRIS.MCCARTER@sakilacustomer.org" city="Fengshan" country="Taiwan" />
+<vwCustomer first_name="CLIFTON" last_name="MALCOLM" email="CLIFTON.MALCOLM@sakilacustomer.org" city="Tanshui" country="Taiwan" />
+<vwCustomer first_name="WILLARD" last_name="LUMPKIN" email="WILLARD.LUMPKIN@sakilacustomer.org" city="Carmen" country="Mexico" />
+<vwCustomer first_name="DARYL" last_name="LARUE" email="DARYL.LARUE@sakilacustomer.org" city="Mosul" country="Iraq" />
+<vwCustomer first_name="ROSS" last_name="GREY" email="ROSS.GREY@sakilacustomer.org" city="Iligan" country="Philippines" />
+<vwCustomer first_name="VIRGIL" last_name="WOFFORD" email="VIRGIL.WOFFORD@sakilacustomer.org" city="Jos Azueta" country="Mexico" />
+<vwCustomer first_name="ANDY" last_name="VANHORN" email="ANDY.VANHORN@sakilacustomer.org" city="Huejutla de Reyes" country="Mexico" />
+<vwCustomer first_name="MARSHALL" last_name="THORN" email="MARSHALL.THORN@sakilacustomer.org" city="Southampton" country="United Kingdom" />
+<vwCustomer first_name="SALVADOR" last_name="TEEL" email="SALVADOR.TEEL@sakilacustomer.org" city="Banjul" country="Gambia" />
+<vwCustomer first_name="PERRY" last_name="SWAFFORD" email="PERRY.SWAFFORD@sakilacustomer.org" city="Quilmes" country="Argentina" />
+<vwCustomer first_name="KIRK" last_name="STCLAIR" email="KIRK.STCLAIR@sakilacustomer.org" city="Tsaotun" country="Taiwan" />
+<vwCustomer first_name="SERGIO" last_name="STANFIELD" email="SERGIO.STANFIELD@sakilacustomer.org" city="Celaya" country="Mexico" />
+<vwCustomer first_name="MARION" last_name="OCAMPO" email="MARION.OCAMPO@sakilacustomer.org" city="Weifang" country="China" />
+<vwCustomer first_name="TRACY" last_name="HERRMANN" email="TRACY.HERRMANN@sakilacustomer.org" city="Loja" country="Ecuador" />
+<vwCustomer first_name="SETH" last_name="HANNON" email="SETH.HANNON@sakilacustomer.org" city="al-Manama" country="Bahrain" />
+<vwCustomer first_name="KENT" last_name="ARSENAULT" email="KENT.ARSENAULT@sakilacustomer.org" city="Juiz de Fora" country="Brazil" />
+<vwCustomer first_name="TERRANCE" last_name="ROUSH" email="TERRANCE.ROUSH@sakilacustomer.org" city="Szkesfehrvr" country="Hungary" />
+<vwCustomer first_name="RENE" last_name="MCALISTER" email="RENE.MCALISTER@sakilacustomer.org" city="Garden Grove" country="United States" />
+<vwCustomer first_name="EDUARDO" last_name="HIATT" email="EDUARDO.HIATT@sakilacustomer.org" city="Jining" country="China" />
+<vwCustomer first_name="TERRENCE" last_name="GUNDERSON" email="TERRENCE.GUNDERSON@sakilacustomer.org" city="Jinzhou" country="China" />
+<vwCustomer first_name="ENRIQUE" last_name="FORSYTHE" email="ENRIQUE.FORSYTHE@sakilacustomer.org" city="Patras" country="Greece" />
+<vwCustomer first_name="FREDDIE" last_name="DUGGAN" email="FREDDIE.DUGGAN@sakilacustomer.org" city="Sullana" country="Peru" />
+<vwCustomer first_name="WADE" last_name="DELVALLE" email="WADE.DELVALLE@sakilacustomer.org" city="Lausanne" country="Switzerland" />
+<vwCustomer first_name="AUSTIN" last_name="CINTRON" email="AUSTIN.CINTRON@sakilacustomer.org" city="Tieli" country="China" />
+
+
+</root>

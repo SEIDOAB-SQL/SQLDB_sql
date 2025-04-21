@@ -1,0 +1,5 @@
+DELETE FROM Pets
+DELETE FROM Friends
+DELETE FROM Adress
+
+

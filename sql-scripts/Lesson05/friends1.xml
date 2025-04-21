@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Friend FriendId="1" FirstName="Harry" LastName="Took">
+	<Address>
+		<Country>
+			Sweden
+		</Country>
+		<City>
+			Sweden
+		</City>
+	</Address>
+	<Pet>
+		Charlie the happy Cat
+	</Pet>
+</Friend>
+<Friend FriendId="2" FirstName="Severus" LastName="Gamgee">
+	<Address>
+		<Country>
+			Norway
+		</Country>
+		<City>
+			Norway
+		</City>
+	</Address>
+	<Pet>
+		Wanda the happy Fish
+	</Pet>
+</Friend>
+<Friend FriendId="5" FirstName="Lord" LastName="Dumbledore">
+	<Address>
+		<Country>
+			Sweden
+		</Country>
+		<City>
+			Sweden
+		</City>
+	</Address>
+	<Pet>
+		Simba the happy Dog
+	</Pet>
+</Friend>
+<Friend FriendId="5" FirstName="Lord" LastName="Dumbledore">
+	<Address>
+		<Country>
+			Sweden
+		</Country>
+		<City>
+			Sweden
+		</City>
+	</Address>
+	<Pet>
+		Max the happy Bird
+	</Pet>
+</Friend>
+<Friend FriendId="3" FirstName="Sam" LastName="Baggins">
+	<Address>
+		<Country>
+			Denmark
+		</Country>
+		<City>
+			Denmark
+		</City>
+	</Address>
+	<Pet>
+		Cooper the happy Cat
+	</Pet>
+</Friend>
+<Friend FriendId="7" FirstName="Albus" LastName="Potter">
+	<Address>
+		<Country>
+			Denmark
+		</Country>
+		<City>
+			Denmark
+		</City>
+	</Address>
+	<Pet>
+		Wanda the happy Dog
+	</Pet>
+</Friend>
+<Friend FriendId="8" FirstName="Draco" LastName="Snape">
+	<Address>
+		<Country>
+			Finland
+		</Country>
+		<City>
+			Finland
+		</City>
+	</Address>
+	<Pet>
+		Teddy the happy Fish
+	</Pet>
+</Friend>
+<Friend FriendId="8" FirstName="Draco" LastName="Snape">
+	<Address>
+		<Country>
+			Finland
+		</Country>
+		<City>
+			Finland
+		</City>
+	</Address>
+	<Pet>
+		Leo the happy Bird
+	</Pet>
+</Friend>
+
+</root>

@@ -1,10 +1,10 @@
 USE friends;
 GO
 
-SELECT N'A simple unicode string literal', N'Let''s try a string using separate single quotes ''hello''';
+SELECT 'A simple unicode string literal', 'Let''s try a string using separate single quotes ''hello''';
 
 -- unicode -> decimal -> hex 
-SELECT UNICODE(N'Å'), master.dbo.fn_varbintohexstr(UNICODE(N'Å')),  convert(varbinary, UNICODE(N'Å'), 1);
+SELECT UNICODE('Å'), master.dbo.fn_varbintohexstr(UNICODE('Å')),  convert(varbinary, UNICODE('Å'), 1);
 
 -- hex -> unicode
 -- https://www.rapidtables.com/code/text/unicode-characters.html
@@ -18,7 +18,7 @@ SELECT @myString = CONCAT (N'So is this: ', @myString);
 
 SELECT @myString as string, LEN(@myString) nr_char, DATALENGTH(@myString) nr_bytes;
 
-SELECT  CHARINDEX(N':', @myString) AS charindex, 
+SELECT  CHARINDEX(':', @myString) AS charindex, 
         SUBSTRING (@myString, 1, CHARINDEX(N':', @myString)) AS substring, 
         REPLACE(@myString, N'₪₪₪₪₪₪₪₪₪₪', N'₱₱₱₱₱') AS replace,
         STUFF (@myString, 1, CHARINDEX(N':', @myString), N'Some sekels:') As stuff

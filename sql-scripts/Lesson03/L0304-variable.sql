@@ -14,5 +14,5 @@ SELECT @myString, @myMoney, @myInt;
 --I can set several variables in a select statement, 
 --notice how the are evaluated and assigned from left to right
 DECLARE @myString1 NVARCHAR(200)
-SELECT @myString += ' '+ LTRIM(CONVERT(NCHAR, @myMoney)), @myString1 = @myString, @myMoney = @myInt
+SELECT @myString += ' '+ TRIM(CONVERT(NCHAR, @myMoney)), @myString1 = @myString, @myMoney = @myInt
 SELECT @myString, @myString1, @myMoney, @myInt;

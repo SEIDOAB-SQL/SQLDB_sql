@@ -1,14 +1,20 @@
-USE goodfriendsefc;
+USE [sql-goodfriends];
 GO
 
 --How many Friends exist in total. 
 SELECT COUNT(*) [Nr of friends]FROM dbo.Friends;
 --How many Friends exist without adress 
-SELECT COUNT(*) [Nr of friends without adress] FROM dbo.Friends WHERE AdressId IS NULL;
+SELECT COUNT(*) [Nr of friends without adress] FROM dbo.Friends WHERE AddressId IS NULL;
 --How many Friends exist with Pet
 SELECT COUNT(DISTINCT FriendId) [Nr of friends who owns a Pet] FROM dbo.Friends f
 INNER JOIN dbo.Pets p ON f.FriendId = p.OwnerFriendId;
---How many Friends exist without a Pet
+
+--How many Friends exist without a Pet - step 1
+SELECT * FROM dbo.Friends f
+LEFT JOIN dbo.Pets p ON f.FriendId = p.OwnerFriendId
+WHERE p.PetId IS NULL;
+
+--How many Friends exist without a Pet - step 2
 SELECT COUNT(DISTINCT FriendId) [Nr of friends who does not owns a Pet] FROM dbo.Friends f
 LEFT JOIN dbo.Pets p ON f.FriendId = p.OwnerFriendId
 WHERE p.PetId IS NULL;
@@ -17,7 +23,7 @@ WHERE p.PetId IS NULL;
 SELECT 'Nr of friends' [Titel], COUNT(*) [Count] FROM dbo.Friends
 UNION
 --How many Friends exist without adress 
-SELECT 'Nr of friends without adress', COUNT(*)  FROM dbo.Friends WHERE AdressId IS NULL
+SELECT 'Nr of friends without adress', COUNT(*)  FROM dbo.Friends WHERE AddressId IS NULL
 UNION
 --How many Friends exist with Pet
 SELECT 'Nr of friends who owns a Pet', COUNT(DISTINCT FriendId) FROM dbo.Friends f

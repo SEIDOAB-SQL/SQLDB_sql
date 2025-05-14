@@ -1,4 +1,4 @@
-USE goodfriendsefc;
+USE [sql-goodfriends];
 GO
 
 --Nr of Pets per friend
@@ -15,22 +15,24 @@ HAVING COUNT(p.PetId) > 1;
 
 SELECT a.Country, a.City, COUNT(PetId)  FROM dbo.Pets p 
 INNER JOIN  dbo.Friends f ON f.FriendId = p.OwnerFriendId
-INNER JOIN dbo.Adress a ON a.AdressId = f.AdressId
+INNER JOIN dbo.Addresses a ON a.AddressId = f.AddressId
 GROUP BY a.Country, a.City WITH ROLLUP;
 
 
-SELECT q.QuoteId, q.Quote, f.FriendId, f.FirstName, f.LastName FROM dbo.Quotes q 
-RIGHT OUTER JOIN dbo.csFriendcsQuote fq ON fq.QuotesQuoteId = q.QuoteId
-RIGHT OUTER JOIN dbo.Friends f ON f.FriendId = fq.FriendsFriendId
-ORDER BY 1;
-
+--Which are the top 5 most popular quotes
 SELECT TOP 5 q.Quote, COUNT(f.FriendId) FROM dbo.Quotes q 
 INNER JOIN dbo.csFriendcsQuote fq ON fq.QuotesQuoteId = q.QuoteId
 INNER JOIN dbo.Friends f ON f.FriendId = fq.FriendsFriendId
 GROUP BY  q.Quote
 ORDER BY 2 DESC;
 
+-- Nr of Friends that does not have a favorite Quote - step 1
+SELECT q.QuoteId, q.QuoteText, f.FriendId, f.FirstName, f.LastName FROM dbo.Quotes q 
+RIGHT OUTER JOIN dbo.FriendQuote fq ON fq.QuotesQuoteId = q.QuoteId
+RIGHT OUTER JOIN dbo.Friends f ON f.FriendId = fq.FriendsFriendId
+ORDER BY 3;
 
+-- Nr of Friends that does not have a favorite Quote - step 2
 SELECT COUNT(DISTINCT f.FriendId) FROM dbo.Quotes q 
 RIGHT OUTER JOIN dbo.csFriendcsQuote fq ON fq.QuotesQuoteId = q.QuoteId
 RIGHT OUTER JOIN dbo.Friends f ON f.FriendId = fq.FriendsFriendId

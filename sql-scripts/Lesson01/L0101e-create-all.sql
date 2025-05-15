@@ -1,0 +1,102 @@
+CREATE DATABASE friends;
+GO
+
+USE friends;
+GO
+
+--create tables
+CREATE TABLE [dbo].[Friend](
+	[FriendId] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [nvarchar](200) NULL,
+	[LastName] [nvarchar](200) NULL,
+	[Email] [nvarchar](200) NULL,
+	[AddressId] [int] NULL
+) ON [PRIMARY]
+ALTER TABLE [dbo].[Friend] ADD  CONSTRAINT [PK_Friend] PRIMARY KEY CLUSTERED 
+(
+	[FriendId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[Pet](y
+	[PetId] [int] IDENTITY(1,1) NOT NULL,
+	[AnimalKind] [nvarchar](50) NULL,
+	[Name] [nvarchar](50) NULL,
+	[FriendId] [int] NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Pet] ADD  CONSTRAINT [PK_Pet] PRIMARY KEY CLUSTERED 
+(
+	[PetId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[Address](
+	[AdressId] [int] IDENTITY(1,1) NOT NULL,
+	[StreetAddress] [nvarchar](200) NULL,
+	[ZipCode] [int] NULL,
+	[City] [nvarchar](200) NULL,
+	[Country] [nvarchar](200) NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Address] ADD  CONSTRAINT [PK_Address] PRIMARY KEY CLUSTERED 
+(
+	[AdressId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+--Alter Tables
+--Alter Pets
+GO
+
+ALTER TABLE [dbo].[Pet]  WITH CHECK ADD  CONSTRAINT [FK_Pet_Friend] FOREIGN KEY([FriendId])
+REFERENCES [dbo].[Friend] ([FriendId])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[Pet] CHECK CONSTRAINT [FK_Pet_Friend]
+GO
+ALTER TABLE [dbo].[Pet]  WITH CHECK ADD  CONSTRAINT [CK_Pet_AnimalKind] CHECK  (([AnimalKind]='Bird' OR [AnimalKind]='Fish' OR [AnimalKind]='Rabbit' OR [AnimalKind]='Cat' OR [AnimalKind]='Dog'))
+GO
+ALTER TABLE [dbo].[Pet] CHECK CONSTRAINT [CK_Pet_AnimalKind]
+GO
+
+
+--Address
+
+SET ANSI_PADDING ON
+GO
+CREATE NONCLUSTERED INDEX [Address_City] ON [dbo].[Address]
+(
+	[City] ASC,
+	[Country] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+CREATE NONCLUSTERED INDEX [Address_Country] ON [dbo].[Address]
+(
+	[Country] ASC,
+	[City] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [UniqueIdx_Address_Street] ON [dbo].[Address]
+(
+	[StreetAddress] ASC,
+	[ZipCode] ASC,
+	[City] ASC,
+	[Country] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+--Alter Friends
+
+ALTER TABLE [dbo].[Friend]  WITH CHECK ADD  CONSTRAINT [FK_Friend_Address] FOREIGN KEY([AddressId])
+REFERENCES [dbo].[Address] ([AdressId])
+GO
+ALTER TABLE [dbo].[Friend] CHECK CONSTRAINT [FK_Friend_Address]
+GO
+
+

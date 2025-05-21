@@ -1,13 +1,14 @@
-USE goodfriendsefc;
+USE [sql-goodfriends];
 GO
 
-CREATE FUNCTION dbo.udf_MostPets()
+CREATE OR ALTER FUNCTION dbo.udf_MostPets(@AnimalKind As NVARCHAR(20))
 RETURNS TABLE AS
 RETURN 
 
-    SELECT TOP 1 a.Country, COUNT(p.PetId) [Nr of Pets] FROM dbo.Friends f
-    INNER JOIN dbo.Pets p ON f.FriendId = p.csFriendFriendId
-    INNER JOIN dbo.Adress a ON f.AdressId = a.AdressId
+    SELECT Top 1 a.Country, COUNT(p.PetId) [Nr of Pets] FROM dbo.Friends f
+    INNER JOIN dbo.Pets p ON f.FriendId = p.OwnerFriendId
+    INNER JOIN dbo.Addresses a ON f.AddressId = a.AddressId
+    WHERE AnimalKindString = @AnimalKind
     GROUP BY a.Country
     ORDER BY 2 DESC
 GO

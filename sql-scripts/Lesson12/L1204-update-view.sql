@@ -30,7 +30,7 @@ CREATE VIEW dbo.vwtmp_customer AS
 GO
 
 --verify VIEW works fine
-SELECT TOP 5 * FROM dbo.vwtmp_customer;
+SELECT * FROM dbo.vwtmp_customer;
 
 --UPDATE using view - ONE base table, i.e. tmp_customer
 UPDATE dbo.vwtmp_customer
@@ -40,3 +40,6 @@ WHERE [cus id] = 1;
 
 --verify UPDATE
 SELECT TOP 5 * FROM dbo.vwtmp_customer;
+
+SELECT * FROM dbo.tmp_customer 
+WHERE [customer_id] = 1;

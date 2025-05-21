@@ -10,7 +10,13 @@ RETURN DATEDIFF(DAY, GETDATE(), DATEADD(YEAR,DATEDIFF(YEAR, @Birthday, GETDATE()
 END
 GO
 
-SELECT FirstName, LastName, Birthday, dbo.udf_DaysToBirthday(Birthday) [days to birthday] FROM Friends;
+SELECT TOP 1 FirstName, LastName, Birthday, dbo.udf_DaysToBirthday(Birthday) [days to birthday] FROM Friends f
+INNER JOIN dbo.Pets p ON f.FriendId = p.OwnerFriendId
+WHERE Birthday IS NOT NULL AND  dbo.udf_DaysToBirthday(Birthday) >= 0
+ORDER BY 4 ASC
+
+
+
 
 
 --Exercise:
